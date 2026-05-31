@@ -1,26 +1,26 @@
 {
-  "widgetTitle": "Find Your Category",
-  "widgetSubtitle": "Select a prompt category to get started instantly.",
-  "sectors": [
-    "ChatGPT Prompts",
-    "Business Prompts",
-    "Marketing Prompts",
-    "SEO Prompts",
-    "Coding Prompts",
-    "Productivity Prompts",
-    "YouTube Prompts",
-    "Social Media Prompts",
-    "Design Prompts",
-    "Education Prompts"
+  "sectionLabel": "Transaction Desk",
+  "headingPrefix": "Transaction",
+  "headingAccent": "Desk",
+  "tagline": "Quick prompts and support for common workflows",
+  "description": "AI Prompt Hub publishes expert prompt guides across 10 categories. Every prompt is tested, copy-paste ready, and completely free to use for personal and commercial projects.",
+  "services": [
+    { "title": "Prompt Discovery", "desc": "Find the right prompt category fast." },
+    { "title": "Custom Templates", "desc": "Tailored prompt templates for specific tasks." },
+    { "title": "Consultation", "desc": "Get expert guidance on prompt engineering." }
   ],
   "stats": [
     { "label": "Total Prompts",   "value": "500+" },
     { "label": "Categories",      "value": "10" },
-    { "label": "Monthly Readers", "value": "50K+" },
-    { "label": "Free to Use",     "value": "100%" }
+    { "label": "Monthly Readers", "value": "50K+" }
   ],
-  "ctaLabel": "Explore All Categories",
-  "ctaHref": "/blog/categories",
-  "description": "AI Prompt Hub publishes expert prompt guides across 10 categories. Every prompt is tested, copy-paste ready, and completely free to use for personal and commercial projects.",
-  "emailHref": "mailto:hello@aipromptshub.com"
+  "visitButtonLabel": "Open Hub",
+  "chatScripts": [
+    "Welcome to AI Prompt Hub — how can I help?",
+    "Try asking for a prompt to generate an email subject line.",
+    "Tell me your goal and I'll suggest a starting prompt."
+  ],
+  "chatHeader": "Prompt Assistant",
+  "chatOnlineStatus": "Online",
+  "chatStatusBar": "Connected"
 }

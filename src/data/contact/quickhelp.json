@@ -1,21 +1,24 @@
 {
-  "widgetTitle": "Quick Contact",
-  "widgetPrompt": "What are we discussing?",
-  "widgetSubprompt": "Select a topic below, then provide your contact info.",
-  "topics": [
-    { "label": "Suggest a Prompt",    "value": "suggest",     "description": "Recommend a prompt topic or use case" },
-    { "label": "General Question",    "value": "general",     "description": "Questions about AI prompting or the site" },
-    { "label": "Report an Error",     "value": "error",       "description": "Found a broken prompt or page?" },
-    { "label": "Partnership / Media", "value": "partnership", "description": "Press, collaborations, or sponsorship" },
-    { "label": "Advertising",         "value": "advertising", "description": "Ad placements and brand partnerships" },
-    { "label": "Other",               "value": "other",       "description": "Anything else on your mind" }
+  "sectionLabel": "Quick Help",
+  "heading": "Need Quick Help?",
+  "blurb": "Select a topic and provide your contact details — we’ll follow up shortly.",
+  "stepLabels": ["Pick a topic", "Your details"],
+  "services": [
+    { "serviceValue": "suggest", "label": "Suggest a Prompt", "subLabel": "Recommend a prompt topic or use case", "iconKey": "light-bulb" },
+    { "serviceValue": "general", "label": "General Question", "subLabel": "Questions about AI prompting or the site", "iconKey": "chat" },
+    { "serviceValue": "error", "label": "Report an Error", "subLabel": "Found a broken prompt or page?", "iconKey": "alert-circle" },
+    { "serviceValue": "partnership", "label": "Partnership / Media", "subLabel": "Press, collaborations, or sponsorship", "iconKey": "handshake" },
+    { "serviceValue": "advertising", "label": "Advertising", "subLabel": "Ad placements and brand partnerships", "iconKey": "megaphone" },
+    { "serviceValue": "other", "label": "Other", "subLabel": "Anything else on your mind", "iconKey": "dots-horizontal" }
   ],
   "formLabels": {
     "name": "Your Name",
     "email": "Email",
-    "submit": "Send It",
-    "back": "Back"
+    "namePlaceholder": "Jane Doe",
+    "emailPlaceholder": "you@example.com"
   },
-  "successHeading": "Received.",
+  "buttons": { "next": "Next", "back": "Back", "submit": "Send It" },
+  "footerNote": "We aim to reply within 1–2 business days.",
+  "successTitle": "Received.",
   "successMessage": "Expect a response to the email you provided within 1–2 business days."
 }

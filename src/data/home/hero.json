@@ -1,13 +1,10 @@
 {
   "eyebrow": "500+ Expert AI Prompts — Free Forever",
   "heading": "Master AI with the Perfect Prompt.",
-  "subheading": "Discover curated, expert-crafted prompts for ChatGPT, business, marketing, SEO, coding, and more. Level up your productivity today.",
-  "ctaPrimary": {
-    "label": "Browse All Prompts",
-    "href": "/blog"
-  },
-  "ctaSecondary": {
-    "label": "View Categories",
-    "href": "/blog/categories"
-  }
+  "subHeading": "Discover curated, expert-crafted prompts for ChatGPT, business, marketing, SEO, coding, and more. Level up your productivity today.",
+  "blurb": "Curated prompts for practical workflows, marketing, engineering, and growth—ready to use.",
+  "ctas": [
+    { "label": "Browse All Prompts", "href": "/blog", "style": "primary" },
+    { "label": "View Categories", "href": "/blog/categories", "style": "secondary" }
+  ]
 }

@@ -12,12 +12,16 @@
       "title": "ChatGPT Prompts — AI Prompt Hub",
       "description": "Discover the best ChatGPT prompts for every use case. Copy-paste ready templates tested on GPT-4."
     },
+    "pageMeta": { "title": "ChatGPT Prompts — AI Prompt Hub", "description": "Discover the best ChatGPT prompts for every use case. Copy-paste ready templates tested on GPT-4." },
+    "intro": { "badge": "Prompts", "heading": "ChatGPT Prompts", "subHeading": "Expert-tested ChatGPT prompts covering writing, research, analysis, and more." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Copy-paste ready prompt templates",
-      "Tested on GPT-4 and Claude",
-      "Beginner to advanced levels",
-      "Updated monthly with new prompts"
-    ]
+      { "title": "Copy-paste ready prompt templates", "description": "" },
+      { "title": "Tested on GPT-4 and Claude", "description": "" },
+      { "title": "Beginner to advanced levels", "description": "" },
+      { "title": "Updated monthly with new prompts", "description": "" }
+    ],
+    "cta": { "heading": "Explore Prompts", "body": "Browse our prompt libraries and start using them today.", "label": "View Prompts" }
   },
   {
     "slug": "business-prompts",
@@ -32,12 +36,16 @@
       "title": "Business Prompts — AI Prompt Hub",
       "description": "AI prompts for business plans, strategy, finance, and operations. Grow your business with ChatGPT."
     },
+    "pageMeta": { "title": "Business Prompts — AI Prompt Hub", "description": "AI prompts for business plans, strategy, finance, and operations." },
+    "intro": { "badge": "Business", "heading": "Business Prompts", "subHeading": "Prompts for business plans, strategy, finance, and entrepreneurship." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Business plan generation",
-      "Financial analysis prompts",
-      "Strategy and decision frameworks",
-      "Operations automation"
-    ]
+      { "title": "Business plan generation", "description": "" },
+      { "title": "Financial analysis prompts", "description": "" },
+      { "title": "Strategy and decision frameworks", "description": "" },
+      { "title": "Operations automation", "description": "" }
+    ],
+    "cta": { "heading": "Business Prompts", "body": "Use AI to streamline planning and operations.", "label": "Learn More" }
   },
   {
     "slug": "marketing-prompts",
@@ -52,12 +60,16 @@
       "title": "Marketing Prompts — AI Prompt Hub",
       "description": "Supercharge your marketing with expert AI prompts. Content, email, copy, and brand strategy."
     },
+    "pageMeta": { "title": "Marketing Prompts — AI Prompt Hub", "description": "Supercharge your marketing with expert AI prompts." },
+    "intro": { "badge": "Marketing", "heading": "Marketing Prompts", "subHeading": "AI prompts for content marketing, email campaigns, and brand strategy." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Ad copy and landing page prompts",
-      "Email marketing sequences",
-      "Content calendar generation",
-      "Brand voice development"
-    ]
+      { "title": "Ad copy and landing page prompts", "description": "" },
+      { "title": "Email marketing sequences", "description": "" },
+      { "title": "Content calendar generation", "description": "" },
+      { "title": "Brand voice development", "description": "" }
+    ],
+    "cta": { "heading": "Marketing Prompts", "body": "Templates and sequences to scale your campaigns.", "label": "Explore" }
   },
   {
     "slug": "seo-prompts",
@@ -72,12 +84,16 @@
       "title": "SEO Prompts — AI Prompt Hub",
       "description": "Rank higher with expert ChatGPT SEO prompts. Keyword research, content optimization, and technical SEO."
     },
+    "pageMeta": { "title": "SEO Prompts — AI Prompt Hub", "description": "Rank higher with expert ChatGPT SEO prompts." },
+    "intro": { "badge": "SEO", "heading": "SEO Prompts", "subHeading": "Expert SEO prompts for keyword research, optimization, and audits." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Keyword clustering and research",
-      "SEO content briefs",
-      "Schema markup generation",
-      "Technical SEO audits"
-    ]
+      { "title": "Keyword clustering and research", "description": "" },
+      { "title": "SEO content briefs", "description": "" },
+      { "title": "Schema markup generation", "description": "" },
+      { "title": "Technical SEO audits", "description": "" }
+    ],
+    "cta": { "heading": "SEO Prompts", "body": "Improve rankings with structured SEO prompts.", "label": "See Prompts" }
   },
   {
     "slug": "coding-prompts",
@@ -92,12 +108,16 @@
       "title": "Coding Prompts — AI Prompt Hub",
       "description": "Write, debug, and review code faster with expert ChatGPT coding prompts for all languages."
     },
+    "pageMeta": { "title": "Coding Prompts — AI Prompt Hub", "description": "Write, debug, and review code faster with expert AI prompts." },
+    "intro": { "badge": "Coding", "heading": "Coding Prompts", "subHeading": "Prompts for writing, debugging, reviewing, and refactoring code." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Code generation from specs",
-      "Bug diagnosis and fixes",
-      "Code review and refactoring",
-      "System architecture planning"
-    ]
+      { "title": "Code generation from specs", "description": "" },
+      { "title": "Bug diagnosis and fixes", "description": "" },
+      { "title": "Code review and refactoring", "description": "" },
+      { "title": "System architecture planning", "description": "" }
+    ],
+    "cta": { "heading": "Coding Prompts", "body": "Use prompts to speed up development and debugging.", "label": "Browse" }
   },
   {
     "slug": "productivity-prompts",
@@ -112,12 +132,16 @@
       "title": "Productivity Prompts — AI Prompt Hub",
       "description": "Get more done with expert AI productivity prompts. Planning, focus, and workflow automation."
     },
+    "pageMeta": { "title": "Productivity Prompts — AI Prompt Hub", "description": "Get more done with expert AI productivity prompts." },
+    "intro": { "badge": "Productivity", "heading": "Productivity Prompts", "subHeading": "Time management, task prioritization, and workflow automation prompts." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Daily and weekly planning",
-      "Deep work session design",
-      "Meeting agendas and summaries",
-      "Workflow automation scripts"
-    ]
+      { "title": "Daily and weekly planning", "description": "" },
+      { "title": "Deep work session design", "description": "" },
+      { "title": "Meeting agendas and summaries", "description": "" },
+      { "title": "Workflow automation scripts", "description": "" }
+    ],
+    "cta": { "heading": "Productivity Prompts", "body": "Systems and prompts to improve focus and output.", "label": "Get Started" }
   },
   {
     "slug": "youtube-prompts",
@@ -132,12 +156,16 @@
       "title": "YouTube Prompts — AI Prompt Hub",
       "description": "Grow your YouTube channel with AI. Scripts, titles, thumbnails, and channel strategy prompts."
     },
+    "pageMeta": { "title": "YouTube Prompts — AI Prompt Hub", "description": "Grow your YouTube channel with AI prompts for scripts, titles, and thumbnails." },
+    "intro": { "badge": "YouTube", "heading": "YouTube Prompts", "subHeading": "Prompts for scripts, titles, thumbnails, and channel strategy." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Full video script generation",
-      "Title and thumbnail ideas",
-      "Channel growth strategy",
-      "YouTube Shorts scripts"
-    ]
+      { "title": "Full video script generation", "description": "" },
+      { "title": "Title and thumbnail ideas", "description": "" },
+      { "title": "Channel growth strategy", "description": "" },
+      { "title": "YouTube Shorts scripts", "description": "" }
+    ],
+    "cta": { "heading": "YouTube Prompts", "body": "Create scripts and assets faster.", "label": "Explore" }
   },
   {
     "slug": "social-media-prompts",
@@ -152,12 +180,16 @@
       "title": "Social Media Prompts — AI Prompt Hub",
       "description": "Create viral social media content with AI prompts. Instagram, LinkedIn, Twitter, TikTok and more."
     },
+    "pageMeta": { "title": "Social Media Prompts — AI Prompt Hub", "description": "Create viral social media content with AI prompts." },
+    "intro": { "badge": "Social", "heading": "Social Media Prompts", "subHeading": "Prompts for Instagram, LinkedIn, Twitter/X, TikTok, and Pinterest." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Caption and post copy",
-      "Hashtag strategy",
-      "Content calendar ideas",
-      "Engagement and reply prompts"
-    ]
+      { "title": "Caption and post copy", "description": "" },
+      { "title": "Hashtag strategy", "description": "" },
+      { "title": "Content calendar ideas", "description": "" },
+      { "title": "Engagement and reply prompts", "description": "" }
+    ],
+    "cta": { "heading": "Social Prompts", "body": "Ideas and captions for every platform.", "label": "View" }
   },
   {
     "slug": "design-prompts",
@@ -172,12 +204,16 @@
       "title": "Design Prompts — AI Prompt Hub",
       "description": "Create stunning visuals with expert AI design prompts for Midjourney, DALL-E, and more."
     },
+    "pageMeta": { "title": "Design Prompts — AI Prompt Hub", "description": "Create stunning visuals with expert AI design prompts." },
+    "intro": { "badge": "Design", "heading": "Design Prompts", "subHeading": "Prompts for Midjourney, DALL-E, Stable Diffusion, and visual branding." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Midjourney prompt formulas",
-      "DALL-E image generation",
-      "Logo and brand identity prompts",
-      "UI/UX wireframe descriptions"
-    ]
+      { "title": "Midjourney prompt formulas", "description": "" },
+      { "title": "DALL-E image generation", "description": "" },
+      { "title": "Logo and brand identity prompts", "description": "" },
+      { "title": "UI/UX wireframe descriptions", "description": "" }
+    ],
+    "cta": { "heading": "Design Prompts", "body": "Visual prompt recipes and examples.", "label": "Browse" }
   },
   {
     "slug": "education-prompts",
@@ -192,11 +228,92 @@
       "title": "Education Prompts — AI Prompt Hub",
       "description": "Learn anything faster with expert AI education prompts. Lesson plans, study guides, and tutoring."
     },
+    "pageMeta": { "title": "Education Prompts — AI Prompt Hub", "description": "Learn anything faster with expert AI education prompts." },
+    "intro": { "badge": "Education", "heading": "Education Prompts", "subHeading": "Prompts for lesson planning, study guides, and personalized learning." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
     "capabilities": [
-      "Lesson plan generation",
-      "Study guide creation",
-      "Quiz and assessment design",
-      "Personalized learning paths"
-    ]
+      { "title": "Lesson plan generation", "description": "" },
+      { "title": "Study guide creation", "description": "" },
+      { "title": "Quiz and assessment design", "description": "" },
+      { "title": "Personalized learning paths", "description": "" }
+    ],
+    "cta": { "heading": "Education Prompts", "body": "Teaching and learning prompts for instructors and students.", "label": "Explore" }
+  }
+  ,
+  {
+    "slug": "acquisition-intake",
+    "title": "Acquisition & Intake",
+    "icon": "🔗",
+    "tagline": "Sourcing and intake for acquisitions",
+    "description": "Structured intake, evaluation, and initial diligence workflows to streamline deal sourcing.",
+    "themeColor": "#0ea5e9",
+    "themeColorDark": "#0369a1",
+    "pageMeta": { "title": "Acquisition & Intake — AI Prompt Hub", "description": "Structured acquisition intake and deal-sourcing workflows." },
+    "intro": { "badge": "Acquisition", "heading": "Acquisition & Intake", "subHeading": "From sourcing to initial evaluation — streamline your pipeline." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
+    "highlights": ["Sourcing", "Initial screening", "Deal intake"],
+    "capabilities": [
+      { "title": "Sourcing workflows", "description": "" },
+      { "title": "Initial screening templates", "description": "" },
+      { "title": "Deal intake checklists", "description": "" }
+    ],
+    "cta": { "heading": "Start a Deal Intake", "body": "Contact us to begin a tailored acquisition workflow.", "label": "Contact" }
+  },
+  {
+    "slug": "operational-efficiency",
+    "title": "Operational Efficiency",
+    "icon": "⚙️",
+    "tagline": "Improve operations and processes",
+    "description": "Operational playbooks, process automation prompts, and efficiency frameworks.",
+    "themeColor": "#10b981",
+    "themeColorDark": "#059669",
+    "pageMeta": { "title": "Operational Efficiency — AI Prompt Hub", "description": "Operational playbooks and automation to improve efficiency." },
+    "intro": { "badge": "Operations", "heading": "Operational Efficiency", "subHeading": "Streamline processes and automate repetitive tasks." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
+    "highlights": ["Process mapping", "Automation", "KPI dashboards"],
+    "capabilities": [
+      { "title": "Process mapping", "description": "" },
+      { "title": "Automation prompts", "description": "" },
+      { "title": "KPI dashboards", "description": "" }
+    ],
+    "cta": { "heading": "Optimize Operations", "body": "Talk to our team about operational improvements.", "label": "Contact" }
+  },
+  {
+    "slug": "portfolio-disposition",
+    "title": "Portfolio Disposition",
+    "icon": "🏷️",
+    "tagline": "Maximize asset disposition outcomes",
+    "description": "Sell-side playbooks, disposition strategy, and buyer outreach templates.",
+    "themeColor": "#f59e0b",
+    "themeColorDark": "#d97706",
+    "pageMeta": { "title": "Portfolio Disposition — AI Prompt Hub", "description": "Sell-side strategy and disposition playbooks." },
+    "intro": { "badge": "Disposition", "heading": "Portfolio Disposition", "subHeading": "Strategies and templates to optimize exits." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
+    "highlights": ["Exit planning", "Buyer outreach", "Valuation support"],
+    "capabilities": [
+      { "title": "Exit planning", "description": "" },
+      { "title": "Buyer outreach templates", "description": "" },
+      { "title": "Valuation support", "description": "" }
+    ],
+    "cta": { "heading": "Plan an Exit", "body": "We can help you prepare and execute disposition strategies.", "label": "Contact" }
+  },
+  {
+    "slug": "leadership-transition",
+    "title": "Leadership Transition",
+    "icon": "👥",
+    "tagline": "Smooth leadership and ownership transitions",
+    "description": "Guides and templates for succession planning, interim leadership, and handoffs.",
+    "themeColor": "#8b5cf6",
+    "themeColorDark": "#7c3aed",
+    "pageMeta": { "title": "Leadership Transition — AI Prompt Hub", "description": "Succession planning and leadership transition playbooks." },
+    "intro": { "badge": "Leadership", "heading": "Leadership Transition", "subHeading": "Plan and execute smooth leadership changes." },
+    "theme": { "accent": "", "badgeBorder": "", "badgeBg": "", "borderAccent": "" },
+    "highlights": ["Succession planning", "Interim leadership", "Stakeholder communication"],
+    "capabilities": [
+      { "title": "Succession worksheets", "description": "" },
+      { "title": "Interim leadership guides", "description": "" },
+      { "title": "Stakeholder communication templates", "description": "" }
+    ],
+    "cta": { "heading": "Transition Support", "body": "Get help planning leadership transitions and continuity.", "label": "Contact" }
   }
 ]
