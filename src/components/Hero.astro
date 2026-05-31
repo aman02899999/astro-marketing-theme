@@ -2,12 +2,18 @@
 import { withBase } from '@/lib/assetPath';
 import heroData from '@/data/home/hero.json';
 import { icons } from '@/lib/icons';
+
+const bgImage = heroData.backgroundImage ? withBase(heroData.backgroundImage) : null;
+const bgStyle = bgImage
+  ? `background: linear-gradient(180deg, rgba(6,8,10,0.9) 0%, rgba(6,8,10,0.7) 40%), url('${bgImage}') center/cover no-repeat;`
+  : "background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-deep) 60%);";
+
 ---
 
 <section
   id="home"
   class="relative pt-16 lg:pt-0 overflow-hidden"
-  style="background: linear-gradient(180deg, var(--bg-elevated) 0%, var(--bg-deep) 60%);"
+  style={bgStyle}
   aria-labelledby="hero-heading"
 >
   <!-- Subtle top accent line -->

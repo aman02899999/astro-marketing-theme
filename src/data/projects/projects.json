@@ -4,6 +4,7 @@
     "category": "Productivity Prompts",
     "tags": ["chatgpt", "productivity", "time management", "planning"],
     "image": "/images/blog/chatgpt-productivity-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog/50-best-chatgpt-prompts-for-productivity",
     "description": "The definitive collection of productivity prompts. Daily planning, deep work sessions, email triage, meeting agendas, and project breakdowns — all copy-paste ready.",
     "githubRepo": ""
@@ -13,6 +14,7 @@
     "category": "SEO Prompts",
     "tags": ["seo", "chatgpt", "keyword research", "content optimization"],
     "image": "/images/blog/chatgpt-seo-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog/chatgpt-seo-prompts-complete-guide",
     "description": "30+ SEO prompts covering keyword research, content briefs, on-page optimization, technical audits, schema markup, and link building outreach.",
     "githubRepo": ""
@@ -22,6 +24,7 @@
     "category": "Coding Prompts",
     "tags": ["coding", "debugging", "programming", "development"],
     "image": "/images/blog/chatgpt-coding-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog/best-chatgpt-prompts-for-coding-and-debugging",
     "description": "25+ coding prompts for writing, debugging, reviewing, and refactoring code. Works with Python, JavaScript, SQL, and any language.",
     "githubRepo": ""
@@ -31,6 +34,7 @@
     "category": "Marketing Prompts",
     "tags": ["marketing", "content", "copywriting", "email"],
     "image": "/images/blog/chatgpt-marketing-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog",
     "description": "Complete marketing prompt library covering email campaigns, ad copy, social content, brand positioning, and campaign strategy.",
     "githubRepo": ""
@@ -40,6 +44,7 @@
     "category": "YouTube Prompts",
     "tags": ["youtube", "scripts", "video", "content creation"],
     "image": "/images/blog/chatgpt-youtube-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog",
     "description": "Write full YouTube scripts, hooks, titles, descriptions, and shorts copy in minutes with these proven prompt templates.",
     "githubRepo": ""
@@ -49,6 +54,7 @@
     "category": "Business Prompts",
     "tags": ["business", "startup", "planning", "strategy"],
     "image": "/images/blog/chatgpt-business-prompts.jpg",
+    "featuredImage": "/images/projects/default-bg.jpg",
     "href": "/blog",
     "description": "Step-by-step prompts to generate executive summaries, market analysis, financial projections, and complete business plans.",
     "githubRepo": ""

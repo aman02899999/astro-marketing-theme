@@ -5,7 +5,9 @@
     "description": "Broad prompts and ideas that don't fit a single category.",
     "accent": "bg-electric-cyan/10",
     "border": "border-site-border/40",
-    "order": 1
+    "order": 1,
+    "seoTitle": "General Prompts — AI Prompt Hub",
+    "seoDescription": "General AI prompts, ideas, and templates across categories. Browse versatile prompts for many use cases."
   },
   {
     "key": "chatgpt-prompts",
@@ -13,7 +15,9 @@
     "description": "High-quality prompt templates for ChatGPT and similar LLMs.",
     "accent": "bg-site-green/10",
     "border": "border-site-green/30",
-    "order": 2
+    "order": 2,
+    "seoTitle": "ChatGPT Prompts — AI Prompt Hub",
+    "seoDescription": "Copy-ready ChatGPT prompts for writing, brainstorming, and development workflows."
   },
   {
     "key": "marketing-prompts",
@@ -21,7 +25,9 @@
     "description": "Prompts focused on copy, ads, growth, and content strategy.",
     "accent": "bg-site-purple/10",
     "border": "border-site-purple/30",
-    "order": 3
+    "order": 3,
+    "seoTitle": "Marketing Prompts — AI Prompt Hub",
+    "seoDescription": "Marketing-focused prompts for ads, email, social, and campaign ideation."
   },
   {
     "key": "coding-prompts",
@@ -29,7 +35,9 @@
     "description": "Developer-focused prompts for debugging, refactors, and scaffolding.",
     "accent": "bg-site-orange/10",
     "border": "border-site-orange/30",
-    "order": 4
+    "order": 4,
+    "seoTitle": "Coding Prompts — AI Prompt Hub",
+    "seoDescription": "Developer prompts for code generation, debugging, and refactoring assistance."
   },
   {
     "key": "productivity-prompts",
@@ -37,6 +45,8 @@
     "description": "Workflows, GTD, and efficiency-focused prompt patterns.",
     "accent": "bg-site-yellow/10",
     "border": "border-site-yellow/30",
-    "order": 5
+    "order": 5,
+    "seoTitle": "Productivity Prompts — AI Prompt Hub",
+    "seoDescription": "Prompts for task planning, timeboxing, and productivity systems to get more done."
   }
 ]
