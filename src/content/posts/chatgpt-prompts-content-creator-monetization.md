@@ -5,9 +5,11 @@ pubDate: 2025-06-20
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["content creators", "chatgpt", "monetization", "creator economy", "audience building", "brand"]
-image: "/images/blog/chatgpt-content-creator-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The creator economy has made it possible for individuals to build media businesses around their knowledge and personality. These prompts help you define your niche, grow your audience consistently, and build multiple revenue streams that compound over time.

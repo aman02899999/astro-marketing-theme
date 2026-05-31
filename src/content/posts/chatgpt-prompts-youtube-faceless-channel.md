@@ -5,9 +5,11 @@ pubDate: 2025-08-01
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["faceless youtube", "chatgpt", "youtube automation", "passive income", "youtube scripts"]
-image: "/images/blog/chatgpt-faceless-youtube-channel.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Faceless YouTube channels generate millions in ad revenue and affiliate income every month — with no creator ever appearing on camera. These prompts help you build content that works in text, voiceover, and visuals without requiring personal presence.

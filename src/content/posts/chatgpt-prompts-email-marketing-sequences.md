@@ -5,9 +5,11 @@ pubDate: 2025-02-10
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["email marketing", "chatgpt", "marketing prompts", "newsletter", "email campaigns"]
-image: "/images/blog/chatgpt-email-marketing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Email is still the highest-ROI marketing channel — $36 back for every $1 spent, according to industry benchmarks. But most email programs underperform because the writing is generic, the sequences are too short, and the CTAs are weak.

@@ -5,9 +5,11 @@ pubDate: 2025-03-24
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["research", "chatgpt", "analysis", "competitive intelligence", "market research", "data analysis"]
-image: "/images/blog/chatgpt-research-analysis-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 ChatGPT is a remarkably powerful thinking partner for research and analysis — not because it has access to real-time data (it doesn't), but because it can structure problems, generate hypotheses, synthesize information you provide, and pressure-test your thinking at the speed of conversation. These prompts show you how.

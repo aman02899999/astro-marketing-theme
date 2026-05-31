@@ -5,9 +5,11 @@ pubDate: 2025-04-19
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["deep work", "focus", "chatgpt", "productivity", "distraction", "concentration", "cal newport"]
-image: "/images/blog/chatgpt-deep-work-focus-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Focused, uninterrupted work is the scarcest resource in knowledge work. These prompts help you design systems around your attention — identifying your highest-value thinking time, building rituals that trigger deep focus, and eliminating the invisible friction that pulls you out of flow.

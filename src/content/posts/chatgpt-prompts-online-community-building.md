@@ -5,9 +5,11 @@ pubDate: 2025-05-19
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["community building", "chatgpt", "discord", "slack", "online community", "engagement"]
-image: "/images/blog/chatgpt-community-building-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Online communities succeed or die in the first 30 days of a member's experience. These prompts help you design that experience deliberately — from the onboarding message to the weekly rituals that keep members coming back.

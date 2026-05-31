@@ -5,9 +5,11 @@ pubDate: 2025-06-08
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["stem", "math tutoring", "science", "chatgpt", "education", "physics", "chemistry"]
-image: "/images/blog/chatgpt-stem-tutoring-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 STEM concepts have a reputation for being difficult because they're often taught abstractly before the intuition is established. These prompts flip that order — building understanding from concrete examples and real-world connections before introducing the formal notation.

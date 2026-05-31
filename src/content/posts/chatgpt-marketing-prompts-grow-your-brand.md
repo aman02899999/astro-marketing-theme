@@ -5,9 +5,11 @@ pubDate: 2025-02-07
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["marketing", "chatgpt", "content marketing", "email marketing", "brand", "campaigns"]
-image: "/images/blog/chatgpt-marketing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Marketing teams using AI aren't just saving time — they're running more campaigns, testing more ideas, and producing more content than their competitors. These 100 prompts cover every marketing function, all copy-paste ready.

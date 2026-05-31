@@ -5,9 +5,11 @@ pubDate: 2025-01-20
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["seo", "chatgpt", "keyword research", "content optimization", "search engine optimization"]
-image: "/images/blog/chatgpt-seo-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 SEO has never been more competitive — or more AI-assisted. Marketers using ChatGPT for SEO are producing more content, finding better keywords, and optimizing faster than those who don't.

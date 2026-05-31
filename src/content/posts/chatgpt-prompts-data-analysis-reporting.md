@@ -5,9 +5,11 @@ pubDate: 2025-07-14
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["data analysis", "chatgpt", "business intelligence", "reporting", "python", "pandas", "sql"]
-image: "/images/blog/chatgpt-data-analysis-reporting.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Data is only valuable when it drives decisions. These prompts help you analyze data faster, communicate findings clearly, and build the Python and SQL workflows that make data analysis repeatable.

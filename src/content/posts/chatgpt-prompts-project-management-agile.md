@@ -5,9 +5,11 @@ pubDate: 2025-08-11
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["project management", "agile", "chatgpt", "scrum", "sprint planning", "pmp"]
-image: "/images/blog/chatgpt-project-management-agile.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Project managers produce enormous amounts of documentation — charters, status updates, risk logs, retrospectives. These prompts automate the routine documentation so you can focus on the actual work of keeping projects on track.

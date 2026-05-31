@@ -5,9 +5,11 @@ pubDate: 2025-07-26
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["hr", "human resources", "chatgpt", "performance reviews", "hiring", "talent management"]
-image: "/images/blog/chatgpt-hr-performance-reviews.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 HR professionals produce more documentation than almost any other function. These prompts reduce the time spent on routine documents without reducing the care and specificity that makes HR communication effective.

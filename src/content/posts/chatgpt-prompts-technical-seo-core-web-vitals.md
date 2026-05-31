@@ -5,9 +5,11 @@ pubDate: 2025-03-30
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["technical seo", "core web vitals", "chatgpt", "site speed", "structured data", "crawlability"]
-image: "/images/blog/chatgpt-technical-seo-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Technical SEO is the foundation everything else sits on. The best content in the world won't rank if Google can't crawl, index, or render your pages properly. These prompts help you audit, diagnose, and fix technical issues — even if you're not a developer.

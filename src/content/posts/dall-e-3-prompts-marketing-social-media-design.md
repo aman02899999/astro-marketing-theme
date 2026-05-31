@@ -5,9 +5,11 @@ pubDate: 2025-03-16
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["dall-e", "ai image generation", "design prompts", "marketing visuals", "social media graphics"]
-image: "/images/blog/dalle-3-prompts-marketing-design.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 DALL-E 3 (built into ChatGPT Plus) generates images directly from your conversation. Unlike Midjourney, you don't need a separate platform — just the right prompt formula. These prompts are built specifically for marketing, social media, and web design use cases.

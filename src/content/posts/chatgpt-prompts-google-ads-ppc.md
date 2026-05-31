@@ -5,9 +5,11 @@ pubDate: 2025-07-12
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["google ads", "ppc", "chatgpt", "paid advertising", "ad copy", "sem"]
-image: "/images/blog/chatgpt-google-ads-ppc.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Great PPC copy is precise and persuasive in very few characters. These prompts apply copywriting principles specifically to the constraints of Google Ads — where every character counts and relevance determines your Quality Score.

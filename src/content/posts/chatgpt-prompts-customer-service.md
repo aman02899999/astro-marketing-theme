@@ -5,9 +5,11 @@ pubDate: 2025-03-26
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["customer service", "chatgpt", "support", "customer experience", "help desk"]
-image: "/images/blog/chatgpt-customer-service-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Customer service teams using AI handle more tickets in less time, maintain consistent tone across every agent, and turn complaints into loyalty moments. These prompts cover every scenario from routine support to escalation management.

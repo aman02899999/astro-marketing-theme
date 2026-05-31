@@ -5,9 +5,11 @@ pubDate: 2025-05-17
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["podcast", "chatgpt", "podcasting", "show notes", "podcast growth", "audio content"]
-image: "/images/blog/chatgpt-podcast-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Podcasting rewards consistency and content quality above all else. These prompts remove the bottlenecks — episode outlines, interview prep, show notes, and titles — so you can focus on the conversations and stories that make great audio.

@@ -5,9 +5,11 @@ pubDate: 2025-02-24
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["midjourney", "logo design", "brand identity", "ai design", "design prompts"]
-image: "/images/blog/midjourney-logo-design-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Midjourney changed what's possible for brand design. Whether you're a designer using AI to explore concepts faster, or a founder building a brand on a budget, these prompts give you the exact formulas that produce professional-quality logo and brand identity work.

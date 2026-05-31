@@ -5,9 +5,11 @@ pubDate: 2025-06-30
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["youtube shorts", "chatgpt", "short form video", "viral content", "youtube growth", "reels"]
-image: "/images/blog/chatgpt-youtube-shorts-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 YouTube Shorts is one of the fastest-growing content surfaces online — and the algorithm aggressively promotes Shorts to help creators reach new audiences. These prompts help you produce Shorts consistently and strategically.

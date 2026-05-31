@@ -5,9 +5,11 @@ pubDate: 2025-07-18
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["online courses", "elearning", "chatgpt", "course creation", "digital products", "teaching"]
-image: "/images/blog/chatgpt-course-creation-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Online courses are one of the highest-margin digital products you can create. These prompts help you go from idea to launched course — covering curriculum design, lesson scripting, sales copy, and student engagement.

@@ -5,9 +5,11 @@ pubDate: 2025-06-22
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["copywriting", "chatgpt", "marketing", "conversion", "aida", "sales copy"]
-image: "/images/blog/chatgpt-copywriting-formulas-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Copywriting formulas exist because they work. They're not templates for generic writing — they're structures for persuasion that have been tested across millions of words and billions of dollars in ad spend. These prompts apply the 10 most powerful formulas to your specific projects.

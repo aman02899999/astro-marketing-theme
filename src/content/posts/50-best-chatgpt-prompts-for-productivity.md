@@ -5,9 +5,11 @@ pubDate: 2025-01-15
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["chatgpt", "productivity", "time management", "planning", "automation"]
-image: "/images/blog/chatgpt-productivity-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Are you using ChatGPT for productivity but not getting the results you expect? The difference is almost always in the prompt. The right prompt gets you a schedule, a plan, or a decision framework on the first try. The wrong one gives you filler.

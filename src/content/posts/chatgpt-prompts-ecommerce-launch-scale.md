@@ -5,9 +5,11 @@ pubDate: 2025-05-27
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["ecommerce", "chatgpt", "shopify", "online store", "product research", "conversion optimization"]
-image: "/images/blog/chatgpt-ecommerce-strategy-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 E-commerce success in 2025 comes down to product-market fit, store experience, and repeat customers. These prompts help you nail all three — from validating product ideas to writing copy that converts to building loyalty that drives lifetime value.

@@ -5,9 +5,11 @@ pubDate: 2025-07-20
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["video production", "chatgpt", "video editing", "video scripts", "creative direction", "content creation"]
-image: "/images/blog/chatgpt-video-production-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Great video starts with great preparation. A well-written brief, clear shot list, and structured edit sequence save hours in post-production. These prompts handle the written work that frames successful video projects.

@@ -5,9 +5,11 @@ pubDate: 2025-06-12
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["affiliate marketing", "chatgpt", "passive income", "content marketing", "niche sites"]
-image: "/images/blog/chatgpt-affiliate-marketing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Affiliate marketing at scale requires three things: content that ranks, reviews readers trust, and a conversion-optimized funnel. These prompts build all three systematically.

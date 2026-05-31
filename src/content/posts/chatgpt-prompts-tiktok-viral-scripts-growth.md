@@ -5,9 +5,11 @@ pubDate: 2025-04-09
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["tiktok", "chatgpt", "social media", "viral content", "tiktok growth", "video scripts"]
-image: "/images/blog/chatgpt-tiktok-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 TikTok is the most powerful organic reach platform available to creators in 2025. The algorithm doesn't care about your follower count — it cares about watch time, completion rate, and shares. These prompts help you engineer both.

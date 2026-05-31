@@ -5,9 +5,11 @@ pubDate: 2025-07-28
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["thought leadership", "chatgpt", "writing", "authority", "content marketing", "bylines"]
-image: "/images/blog/chatgpt-thought-leadership-writing.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Thought leadership is the highest-leverage content you can create — it shapes how your entire industry thinks, attracts the best clients and talent, and compounds over years. These prompts help you articulate the ideas you have, in your voice, at a level of quality worth publishing.

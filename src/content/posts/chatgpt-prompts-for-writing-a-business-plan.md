@@ -5,9 +5,11 @@ pubDate: 2025-02-03
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["business plan", "chatgpt", "startup", "entrepreneurship", "business prompts"]
-image: "/images/blog/chatgpt-business-plan-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Writing a business plan used to take weeks and cost thousands in consultant fees. With the right ChatGPT prompts, you can produce a solid first draft in a single afternoon — then spend your time refining, not staring at a blank page.

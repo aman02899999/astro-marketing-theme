@@ -5,9 +5,11 @@ pubDate: 2025-02-28
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["education", "chatgpt", "teaching", "lesson plans", "teachers", "classroom"]
-image: "/images/blog/chatgpt-teacher-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Teachers who use AI don't teach better because of AI — they teach better because AI gives them their time back. These prompts eliminate the most time-consuming administrative tasks in teaching so you can spend more time on the work that actually matters: your students.

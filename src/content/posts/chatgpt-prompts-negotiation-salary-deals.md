@@ -5,9 +5,11 @@ pubDate: 2025-05-05
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["negotiation", "chatgpt", "salary negotiation", "business negotiation", "persuasion"]
-image: "/images/blog/chatgpt-negotiation-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Negotiation outcomes are decided before you walk into the room. The prep work — knowing your position, anticipating the other side, and planning your responses — determines 80% of the result. These prompts do the prep work in minutes.

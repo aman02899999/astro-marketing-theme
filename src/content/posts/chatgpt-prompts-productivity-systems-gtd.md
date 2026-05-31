@@ -5,9 +5,11 @@ pubDate: 2025-08-05
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["productivity systems", "gtd", "time blocking", "task management", "chatgpt", "personal productivity"]
-image: "/images/blog/chatgpt-productivity-systems-gtd.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 A productivity system is only as good as how consistently you use it. These prompts help you design systems calibrated to your actual work style — not the system that looks impressive in a YouTube thumbnail.

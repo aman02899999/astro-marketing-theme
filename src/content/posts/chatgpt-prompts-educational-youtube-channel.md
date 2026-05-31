@@ -5,9 +5,11 @@ pubDate: 2025-04-07
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["educational youtube", "chatgpt", "explainer videos", "teaching", "youtube channel", "e-learning"]
-image: "/images/blog/chatgpt-educational-youtube-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Educational YouTube channels have some of the highest CPMs, strongest loyalty, and best long-term compounding of any content format. These prompts help you plan, script, and structure educational content that makes viewers come back to learn more.

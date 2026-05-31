@@ -5,9 +5,11 @@ pubDate: 2025-04-11
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["stable diffusion", "ai art", "image generation", "design prompts", "automatic1111", "comfyui"]
-image: "/images/blog/stable-diffusion-prompts-professional.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Stable Diffusion gives you more control than any other AI image generator — but that control requires knowing how to write prompts that the model actually responds to. These prompts and techniques bridge the gap between your vision and the output.

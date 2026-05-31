@@ -5,9 +5,11 @@ pubDate: 2025-04-13
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["language learning", "chatgpt", "education", "vocabulary", "grammar", "conversation practice"]
-image: "/images/blog/chatgpt-language-learning-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Language learning is one of the best use cases for ChatGPT that most learners completely overlook. You have an infinitely patient conversation partner, grammar tutor, vocabulary builder, and translation explainer — all in one. These prompts show you how to use it effectively at every stage.

@@ -5,9 +5,11 @@ pubDate: 2025-06-10
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["legal documents", "chatgpt", "contracts", "compliance", "nda", "terms of service"]
-image: "/images/blog/chatgpt-legal-documents-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 > **Important disclaimer:** ChatGPT-generated legal documents are starting points for discussion with a qualified attorney, not final legal instruments. Laws vary by jurisdiction. Always have important legal documents reviewed by a licensed attorney before signing or publishing.

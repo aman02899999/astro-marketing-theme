@@ -5,9 +5,11 @@ pubDate: 2025-06-16
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["nonprofit", "chatgpt", "fundraising", "grant writing", "donor communications"]
-image: "/images/blog/chatgpt-nonprofit-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Nonprofit staff do more with less than almost any other sector. These prompts help you write grant proposals, donor appeals, and impact stories faster — without sacrificing the authenticity that makes nonprofit communication effective.

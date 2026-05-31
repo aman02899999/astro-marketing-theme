@@ -5,9 +5,11 @@ pubDate: 2025-07-10
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["linkedin", "chatgpt", "linkedin strategy", "thought leadership", "b2b", "professional brand"]
-image: "/images/blog/chatgpt-linkedin-content-strategy.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 LinkedIn is the only platform where professional content compounds indefinitely. A post from 2 years ago still drives connections today. These prompts help you build a content strategy that grows your professional reputation and generates real business opportunities.

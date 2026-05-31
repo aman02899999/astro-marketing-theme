@@ -5,9 +5,11 @@ pubDate: 2025-02-05
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["sales", "chatgpt", "business prompts", "crm", "outreach", "closing"]
-image: "/images/blog/chatgpt-sales-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Sales reps who use AI don't just send more emails — they send better ones. They walk into calls more prepared, handle objections faster, and spend less time on admin. These 30 ChatGPT sales prompts are used by professionals to compress hours of sales work into minutes.

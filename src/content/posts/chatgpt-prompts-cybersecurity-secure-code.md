@@ -5,9 +5,11 @@ pubDate: 2025-06-26
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["cybersecurity", "security", "chatgpt", "code review", "vulnerability", "appsec"]
-image: "/images/blog/chatgpt-cybersecurity-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 > **Important:** These prompts are for defensive security — protecting systems, writing secure code, and building security programs. Never use AI assistance to attack systems you don't have explicit permission to test.

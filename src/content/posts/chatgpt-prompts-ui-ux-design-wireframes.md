@@ -5,9 +5,11 @@ pubDate: 2025-02-26
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["ui ux", "chatgpt", "design prompts", "ux research", "wireframes", "product design"]
-image: "/images/blog/chatgpt-ui-ux-design-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 UI/UX designers use ChatGPT to move faster through the parts of the process that aren't about visual craft: user research synthesis, UX copy, persona development, information architecture, and usability analysis. These prompts cover all of it.

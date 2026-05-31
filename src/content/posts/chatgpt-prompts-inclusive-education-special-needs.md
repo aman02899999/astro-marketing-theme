@@ -5,9 +5,11 @@ pubDate: 2025-07-02
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["inclusive education", "special needs", "chatgpt", "iep", "differentiation", "accessibility"]
-image: "/images/blog/chatgpt-inclusive-education-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Every student deserves access to learning. These prompts help educators design inclusive materials, adapt existing content for diverse needs, and write the documentation that supports students with disabilities — faster and with more consistency.

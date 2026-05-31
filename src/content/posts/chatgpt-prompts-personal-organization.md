@@ -5,9 +5,11 @@ pubDate: 2025-04-01
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["personal organization", "chatgpt", "productivity", "second brain", "note-taking", "goal setting"]
-image: "/images/blog/chatgpt-personal-organization-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Most productivity systems fail not because the method is wrong but because it's too complex to maintain. These prompts help you build personal organization systems that fit your actual life — not an idealized version of it.

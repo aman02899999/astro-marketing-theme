@@ -5,9 +5,11 @@ pubDate: 2025-08-07
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["local business", "chatgpt", "local marketing", "google business profile", "local seo", "small business"]
-image: "/images/blog/chatgpt-local-business-marketing.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Local businesses that dominate their market combine online visibility (Google, Maps) with genuine community relationships. These prompts build both — from optimized Google Business Profiles to local content that positions you as the area expert.

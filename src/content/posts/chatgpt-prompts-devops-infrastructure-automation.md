@@ -5,9 +5,11 @@ pubDate: 2025-04-25
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["devops", "docker", "kubernetes", "terraform", "chatgpt", "infrastructure", "cicd", "automation"]
-image: "/images/blog/chatgpt-devops-infrastructure-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 DevOps engineers spend a disproportionate amount of time on configuration, documentation, and boilerplate. These prompts eliminate that overhead so you can focus on architecture, reliability, and the work that actually requires expertise.

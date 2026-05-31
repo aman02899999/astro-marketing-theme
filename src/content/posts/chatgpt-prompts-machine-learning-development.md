@@ -5,9 +5,11 @@ pubDate: 2025-05-31
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["machine learning", "ai development", "chatgpt", "python", "pytorch", "scikit-learn", "llm"]
-image: "/images/blog/chatgpt-machine-learning-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Machine learning practitioners use AI to write the boilerplate so they can focus on the modeling decisions that actually matter. These prompts cover the full ML workflow — from data preprocessing to model deployment.

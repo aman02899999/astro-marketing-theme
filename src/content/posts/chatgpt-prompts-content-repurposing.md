@@ -5,9 +5,11 @@ pubDate: 2025-04-29
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["content repurposing", "chatgpt", "content marketing", "content strategy", "omnichannel"]
-image: "/images/blog/chatgpt-content-repurposing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Creating original content from scratch every day is unsustainable. The most efficient content marketers create once and distribute everywhere — one core piece of content becomes 10, 15, or 20 pieces across multiple platforms. These prompts automate the repurposing engine.

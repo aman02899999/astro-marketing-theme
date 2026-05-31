@@ -5,9 +5,11 @@ pubDate: 2025-06-28
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["remote work", "chatgpt", "async communication", "distributed teams", "virtual meetings"]
-image: "/images/blog/chatgpt-remote-work-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Remote work amplifies both the best and worst parts of how teams communicate. These prompts help distributed teams communicate more clearly, stay aligned without excessive meetings, and maintain culture across time zones and distances.

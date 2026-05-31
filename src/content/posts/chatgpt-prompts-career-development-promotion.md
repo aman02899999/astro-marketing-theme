@@ -5,9 +5,11 @@ pubDate: 2025-06-02
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["career development", "chatgpt", "resume", "job interview", "promotion", "job search"]
-image: "/images/blog/chatgpt-career-development-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Your career is the longest project you'll ever work on. These prompts help you be strategic about it — from writing a resume that gets interviews to negotiating a promotion you deserve.

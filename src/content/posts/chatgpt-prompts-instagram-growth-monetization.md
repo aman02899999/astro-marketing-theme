@@ -5,9 +5,11 @@ pubDate: 2025-08-03
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["instagram", "chatgpt", "reels", "instagram growth", "social media", "monetization"]
-image: "/images/blog/chatgpt-instagram-growth-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Instagram in 2025 rewards creators who master Reels, carousels, and a consistent posting strategy. These prompts help you produce content faster across every Instagram format and build toward monetization.

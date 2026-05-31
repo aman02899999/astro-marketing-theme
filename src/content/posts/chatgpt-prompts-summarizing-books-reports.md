@@ -5,9 +5,11 @@ pubDate: 2025-04-15
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["summarizing", "chatgpt", "reading", "research", "knowledge management", "books"]
-image: "/images/blog/chatgpt-summarization-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The ability to extract signal from noise quickly is one of the highest-leverage skills of the information age. These ChatGPT prompts turn dense books, reports, papers, and documents into clear, actionable summaries — in minutes.

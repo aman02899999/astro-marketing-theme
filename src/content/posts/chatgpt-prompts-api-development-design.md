@@ -5,9 +5,11 @@ pubDate: 2025-05-13
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["api development", "rest api", "graphql", "chatgpt", "backend", "openapi", "documentation"]
-image: "/images/blog/chatgpt-api-development-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 APIs are the backbone of modern software — and well-designed ones are a competitive advantage. These prompts accelerate every phase of API development from design through documentation.

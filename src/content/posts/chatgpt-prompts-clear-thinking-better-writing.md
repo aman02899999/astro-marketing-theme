@@ -5,9 +5,11 @@ pubDate: 2025-05-15
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["writing", "clear thinking", "chatgpt", "productivity", "communication", "argumentation"]
-image: "/images/blog/chatgpt-clear-thinking-writing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Writing is thinking. The act of articulating an idea clearly reveals whether you actually understand it. These prompts use ChatGPT as a thinking partner — to structure arguments, stress-test ideas, improve clarity, and overcome the friction that stops you from writing.

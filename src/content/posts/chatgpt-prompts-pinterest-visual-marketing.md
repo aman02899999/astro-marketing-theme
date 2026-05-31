@@ -5,9 +5,11 @@ pubDate: 2025-05-03
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["pinterest", "chatgpt", "social media", "visual marketing", "pinterest seo", "traffic"]
-image: "/images/blog/chatgpt-pinterest-marketing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Pinterest is a search engine disguised as a social network — and one of the few social platforms where content compounds over years, not days. A well-optimized pin from 3 years ago still drives traffic today. These prompts help you build a Pinterest presence that works on autopilot.

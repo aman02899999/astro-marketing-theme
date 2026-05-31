@@ -5,9 +5,11 @@ pubDate: 2025-06-18
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["healthcare", "chatgpt", "medical", "patient education", "clinical documentation", "health literacy"]
-image: "/images/blog/chatgpt-healthcare-medical-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 > **Medical disclaimer:** These prompts assist with documentation and patient communication. All clinical content must be reviewed by qualified healthcare professionals before use. Never use AI-generated content as a substitute for clinical judgment.

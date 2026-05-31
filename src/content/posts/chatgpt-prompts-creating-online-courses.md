@@ -5,9 +5,11 @@ pubDate: 2025-03-18
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["online course", "chatgpt", "course creation", "e-learning", "education prompts", "teaching online"]
-image: "/images/blog/chatgpt-online-course-creation-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Creating an online course used to take months. With the right ChatGPT prompts, you can go from idea to complete curriculum draft in days — then spend your time recording, not writing. These prompts cover the entire course creation workflow.

@@ -5,9 +5,11 @@ pubDate: 2025-03-22
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["twitter", "threads", "chatgpt", "social media", "audience building", "content strategy"]
-image: "/images/blog/chatgpt-twitter-threads-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Twitter/X and Threads reward ideas expressed clearly and sharply. One great thread can bring thousands of followers. One great reply can open doors to partnerships, clients, and opportunities. These prompts help you consistently produce the kind of content that compounds.

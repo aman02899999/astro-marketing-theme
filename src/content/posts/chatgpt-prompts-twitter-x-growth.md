@@ -5,9 +5,11 @@ pubDate: 2025-08-09
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["twitter", "x", "chatgpt", "twitter threads", "social media growth", "twitter marketing"]
-image: "/images/blog/chatgpt-twitter-x-growth.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Twitter/X rewards ideas, opinions, and threads that make people think. These prompts help you write content that builds followers, sparks conversations, and establishes you as a must-follow in your niche.

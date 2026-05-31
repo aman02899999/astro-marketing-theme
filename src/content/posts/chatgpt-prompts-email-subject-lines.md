@@ -5,9 +5,11 @@ pubDate: 2025-07-06
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["email marketing", "subject lines", "chatgpt", "email open rates", "copywriting"]
-image: "/images/blog/chatgpt-email-subject-lines.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Your subject line is the only thing standing between your email and the trash. The average inbox receives 121 emails per day — yours has under 2 seconds to earn a click. These prompts generate subject lines that outperform every time.

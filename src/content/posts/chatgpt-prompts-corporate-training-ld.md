@@ -5,9 +5,11 @@ pubDate: 2025-04-27
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["corporate training", "learning and development", "chatgpt", "instructional design", "elearning", "l&d"]
-image: "/images/blog/chatgpt-corporate-training-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Learning and development professionals who use AI produce more training material in less time — without sacrificing instructional quality. These prompts cover every phase of the L&D workflow from needs analysis through evaluation.

@@ -5,9 +5,11 @@ pubDate: 2025-06-14
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["real estate", "chatgpt", "property listings", "real estate marketing", "agent productivity"]
-image: "/images/blog/chatgpt-real-estate-agent-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Real estate agents who use AI write better listings faster, follow up more consistently, and spend more time with clients. These prompts cover every written communication task in the real estate business.

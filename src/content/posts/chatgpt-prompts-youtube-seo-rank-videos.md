@@ -5,9 +5,11 @@ pubDate: 2025-05-11
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["youtube seo", "chatgpt", "video seo", "youtube keywords", "search optimization", "youtube growth"]
-image: "/images/blog/chatgpt-youtube-seo-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 YouTube is the world's second-largest search engine. Every video you publish is either optimized to be found or invisible. These prompts apply SEO principles specifically to YouTube — from keyword research to full metadata optimization.

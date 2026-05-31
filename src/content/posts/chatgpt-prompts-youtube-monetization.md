@@ -5,9 +5,11 @@ pubDate: 2025-03-20
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["youtube monetization", "chatgpt", "sponsorship", "affiliate marketing", "youtube income", "creator economy"]
-image: "/images/blog/chatgpt-youtube-monetization-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Most YouTube creators leave 80% of their monetization potential on the table because they only pursue AdSense. These prompts help you build every monetization stream — sponsorship deals, affiliate integrations, digital products, memberships, and consulting — using AI to write the copy, pitches, and scripts.

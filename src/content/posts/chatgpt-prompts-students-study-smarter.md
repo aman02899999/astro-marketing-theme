@@ -5,9 +5,11 @@ pubDate: 2025-03-02
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["education", "students", "chatgpt", "studying", "learning", "essays"]
-image: "/images/blog/chatgpt-student-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The students getting the most out of AI aren't using it to skip learning — they're using it to learn deeper and faster. These prompts teach you how to use ChatGPT as a tutor, study partner, and writing coach without crossing into academic dishonesty.

@@ -5,9 +5,11 @@ pubDate: 2025-07-08
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["product launch", "chatgpt", "go-to-market", "launch strategy", "marketing"]
-image: "/images/blog/chatgpt-product-launch-strategy.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 A product launch is the highest-leverage marketing event in your calendar. These prompts help you plan every phase — from pre-launch buzz to post-launch momentum — so you don't leave revenue on the table.

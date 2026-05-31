@@ -5,9 +5,11 @@ pubDate: 2025-07-24
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["website copy", "copywriting", "chatgpt", "landing pages", "conversion", "web copy"]
-image: "/images/blog/chatgpt-website-copy-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Your website copy is your best salesperson — working 24/7, never having an off day, and reaching customers you'd never meet in person. These prompts help you write every page of your site with the clarity and persuasion that turns browsers into buyers.

@@ -5,9 +5,11 @@ pubDate: 2025-06-06
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["print design", "packaging design", "chatgpt", "design prompts", "branding", "product packaging"]
-image: "/images/blog/chatgpt-print-packaging-design-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Print and packaging design is where brand identity becomes tangible. These prompts help you brief designers effectively, write copy that fits tight spaces, plan layouts that meet print production requirements, and create packaging that stands out on shelf.

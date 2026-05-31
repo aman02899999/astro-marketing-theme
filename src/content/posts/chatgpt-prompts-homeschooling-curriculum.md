@@ -5,9 +5,11 @@ pubDate: 2025-05-23
 author: "AI Prompt Hub Team"
 category: "education-prompts"
 tags: ["homeschooling", "chatgpt", "education", "curriculum", "home education", "learning"]
-image: "/images/blog/chatgpt-homeschooling-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Homeschooling gives children something traditional schooling can't: fully personalized education. ChatGPT makes that personalization scalable — helping you design curriculum, adapt lessons, explain difficult concepts at the right level, and track progress across subjects.

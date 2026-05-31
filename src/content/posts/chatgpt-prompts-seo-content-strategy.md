@@ -5,9 +5,11 @@ pubDate: 2025-07-30
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["seo strategy", "content strategy", "chatgpt", "topic clusters", "pillar pages", "keyword research"]
-image: "/images/blog/chatgpt-seo-content-strategy.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Individual blog posts don't rank long-term. Sites with strategic content architecture — pillar pages, topic clusters, and intelligent internal linking — do. These prompts help you build the content system that compounds search rankings over time.

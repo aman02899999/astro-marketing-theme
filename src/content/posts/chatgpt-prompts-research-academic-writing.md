@@ -5,9 +5,11 @@ pubDate: 2025-08-13
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["academic writing", "research", "chatgpt", "literature review", "thesis", "academic productivity"]
-image: "/images/blog/chatgpt-research-academic-writing.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 > **Academic integrity note:** ChatGPT is a research and writing assistant. Using it to produce work you submit as entirely your own, without disclosure, may violate your institution's academic integrity policies. Check your institution's AI use policy before using these prompts for academic submissions.

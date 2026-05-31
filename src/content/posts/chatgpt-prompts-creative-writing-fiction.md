@@ -5,9 +5,11 @@ pubDate: 2025-05-25
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["creative writing", "fiction", "storytelling", "chatgpt", "character development", "writing prompts"]
-image: "/images/blog/chatgpt-creative-writing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 ChatGPT is a remarkable creative writing partner when used as a collaborator rather than a ghostwriter. These prompts help you develop richer characters, solve plot problems, break through blocks, and produce prose that sounds like you — not AI.

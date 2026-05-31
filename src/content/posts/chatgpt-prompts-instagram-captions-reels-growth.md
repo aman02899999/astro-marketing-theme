@@ -5,9 +5,11 @@ pubDate: 2025-02-16
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["instagram", "chatgpt", "social media", "reels", "captions", "instagram growth"]
-image: "/images/blog/chatgpt-instagram-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Instagram rewards content that stops the scroll, holds attention, and drives saves and shares. These 50 ChatGPT prompts help you produce that content consistently — without staring at a blank caption box for 20 minutes every day.

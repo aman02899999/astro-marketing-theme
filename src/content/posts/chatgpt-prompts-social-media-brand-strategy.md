@@ -5,9 +5,11 @@ pubDate: 2025-06-04
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["social media strategy", "chatgpt", "brand building", "content strategy", "social media marketing"]
-image: "/images/blog/chatgpt-social-media-brand-strategy.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Posting on social media without a strategy is activity, not progress. The brands that grow consistently have a clear voice, a defined audience, and content pillars that make every post purposeful. These prompts build all three.

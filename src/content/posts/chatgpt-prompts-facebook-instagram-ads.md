@@ -5,9 +5,11 @@ pubDate: 2025-03-12
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["facebook ads", "instagram ads", "chatgpt", "paid advertising", "marketing prompts", "ad copy"]
-image: "/images/blog/chatgpt-facebook-ads-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Facebook and Instagram ads live or die in the first three words. If the hook doesn't stop the scroll, nothing else matters. These prompts help you write ad copy that stops, engages, and converts — for any product, offer, or audience.

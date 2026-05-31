@@ -5,9 +5,11 @@ pubDate: 2025-06-24
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["voice search", "ai search", "seo", "chatgpt", "google sge", "conversational seo"]
-image: "/images/blog/chatgpt-voice-search-ai-seo.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Search is changing. Voice queries are conversational. AI-powered search (Google AI Overviews, Bing Copilot, Perplexity) summarizes content rather than listing links. If your content isn't optimized for how AI systems extract and present information, you're invisible in the fastest-growing search surfaces.

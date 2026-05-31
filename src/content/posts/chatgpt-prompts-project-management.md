@@ -5,9 +5,11 @@ pubDate: 2025-02-22
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["project management", "chatgpt", "productivity", "agile", "scrum", "planning"]
-image: "/images/blog/chatgpt-project-management-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Project managers who use AI aren't replacing their judgment — they're eliminating the documentation, formatting, and boilerplate that consumes 40% of their week. These prompts handle the scaffolding so you can focus on the actual managing.

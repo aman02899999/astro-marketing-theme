@@ -5,9 +5,11 @@ pubDate: 2025-05-21
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["presentations", "slides", "chatgpt", "pitch deck", "powerpoint", "keynote", "storytelling"]
-image: "/images/blog/chatgpt-presentation-design-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The best presentations tell a story. The worst are bullet point dumps that could have been an email. These prompts help you build presentations that make audiences lean forward — from investor pitches to boardroom reports to sales decks.

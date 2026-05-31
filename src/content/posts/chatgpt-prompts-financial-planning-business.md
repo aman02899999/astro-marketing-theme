@@ -5,9 +5,11 @@ pubDate: 2025-03-28
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["financial planning", "chatgpt", "business finance", "cash flow", "pricing", "budgeting"]
-image: "/images/blog/chatgpt-financial-planning-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Finance is where most small business owners feel least confident and spend the most time worrying. These ChatGPT prompts won't replace your accountant — but they'll help you think through financial decisions faster, communicate numbers more clearly, and build planning frameworks you can actually use.

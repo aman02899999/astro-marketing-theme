@@ -5,9 +5,11 @@ pubDate: 2025-03-04
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["youtube", "faceless channel", "chatgpt", "voiceover scripts", "youtube automation", "passive income"]
-image: "/images/blog/chatgpt-faceless-youtube-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Faceless YouTube channels have become one of the most scalable content businesses online. With AI for scripting, text-to-speech for voiceover, and stock footage for visuals, you can run a channel that generates AdSense and affiliate revenue without ever showing your face.

@@ -5,9 +5,11 @@ pubDate: 2025-05-09
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["pr", "public relations", "chatgpt", "press release", "media relations", "journalism", "marketing"]
-image: "/images/blog/chatgpt-pr-media-relations-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Getting press coverage changes everything — search rankings improve, credibility compounds, and sales conversations get shorter. But most pitches fail in the subject line. These prompts help you write press materials that journalists actually read.

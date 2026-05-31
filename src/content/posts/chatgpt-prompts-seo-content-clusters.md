@@ -5,9 +5,11 @@ pubDate: 2025-03-08
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["seo", "content clusters", "chatgpt", "topic authority", "pillar pages", "content strategy"]
-image: "/images/blog/chatgpt-seo-content-clusters.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The sites that dominate Google aren't ranking one article — they're ranking dozens of interlinked articles on the same topic. This is topic authority, and the content cluster model is how you build it. These ChatGPT prompts handle the strategy and production.

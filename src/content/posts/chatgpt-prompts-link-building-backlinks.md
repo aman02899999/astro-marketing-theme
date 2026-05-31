@@ -5,9 +5,11 @@ pubDate: 2025-05-29
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["link building", "seo", "chatgpt", "backlinks", "outreach", "digital pr"]
-image: "/images/blog/chatgpt-link-building-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Backlinks remain one of Google's most important ranking signals. But most link building fails because the outreach is generic, the value exchange is unclear, or the linkable asset isn't worth linking to. These prompts fix all three.

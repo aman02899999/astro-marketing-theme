@@ -5,9 +5,11 @@ pubDate: 2025-03-06
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["hr", "hiring", "chatgpt", "business prompts", "recruitment", "onboarding", "performance reviews"]
-image: "/images/blog/chatgpt-hr-hiring-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 HR professionals who use AI spend more time on the high-value human work — culture, relationships, judgment calls — and less on documentation. These prompts eliminate hours of writing from every stage of the employee lifecycle.

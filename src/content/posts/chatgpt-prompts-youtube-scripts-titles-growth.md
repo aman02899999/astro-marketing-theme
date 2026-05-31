@@ -5,9 +5,11 @@ pubDate: 2025-02-14
 author: "AI Prompt Hub Team"
 category: "youtube-prompts"
 tags: ["youtube", "chatgpt", "video scripts", "youtube seo", "content creation", "channel growth"]
-image: "/images/blog/chatgpt-youtube-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 YouTube is a search engine. Your titles, descriptions, and scripts all affect whether your videos get found, watched, and shared. These ChatGPT prompts help you create better videos faster — and grow a channel that actually gets traction.

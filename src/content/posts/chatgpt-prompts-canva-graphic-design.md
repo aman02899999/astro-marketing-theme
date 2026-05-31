@@ -5,9 +5,11 @@ pubDate: 2025-04-23
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["canva", "graphic design", "chatgpt", "design prompts", "visual content", "social media design"]
-image: "/images/blog/chatgpt-canva-graphic-design-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Canva makes design accessible, but what goes inside the design — the copy, the concept, the strategic thinking — still takes time. These prompts use ChatGPT to handle the thinking so you can spend your time in Canva executing, not staring at a blank canvas wondering what to put on it.

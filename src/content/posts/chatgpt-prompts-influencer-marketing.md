@@ -5,9 +5,11 @@ pubDate: 2025-04-03
 author: "AI Prompt Hub Team"
 category: "marketing-prompts"
 tags: ["influencer marketing", "chatgpt", "creator economy", "brand partnerships", "ugc", "marketing prompts"]
-image: "/images/blog/chatgpt-influencer-marketing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Influencer marketing campaigns fail most often in the briefing and negotiation phase, not in the content itself. These prompts fix the work before the work — giving you professional outreach, clear briefs, and structured evaluation frameworks.

@@ -5,9 +5,11 @@ pubDate: 2025-02-18
 author: "AI Prompt Hub Team"
 category: "social-media-prompts"
 tags: ["linkedin", "chatgpt", "social media prompts", "b2b", "thought leadership", "personal brand"]
-image: "/images/blog/chatgpt-linkedin-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 LinkedIn is the most powerful B2B platform in the world — and most people use it like a résumé dump. These prompts help you build genuine authority, attract inbound leads, and grow a network that opens doors.

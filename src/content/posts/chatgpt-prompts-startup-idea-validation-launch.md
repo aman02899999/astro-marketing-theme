@@ -5,9 +5,11 @@ pubDate: 2025-04-17
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["startup", "chatgpt", "product launch", "mvp", "pitch deck", "product market fit"]
-image: "/images/blog/chatgpt-startup-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Building a startup means making high-stakes decisions with incomplete information at high speed. These prompts help founders think faster, validate smarter, and communicate more clearly at every stage from napkin sketch to launch.

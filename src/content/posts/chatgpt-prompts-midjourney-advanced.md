@@ -5,9 +5,11 @@ pubDate: 2025-07-22
 author: "AI Prompt Hub Team"
 category: "design-prompts"
 tags: ["midjourney", "ai art", "advanced prompting", "design", "image generation", "photography"]
-image: "/images/blog/chatgpt-midjourney-advanced-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Midjourney's power comes from mastering its parameter system alongside prompt vocabulary. These aren't beginner tips — they're the techniques that separate amateur AI art from professional-grade outputs.

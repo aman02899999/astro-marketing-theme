@@ -5,9 +5,11 @@ pubDate: 2025-03-10
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["automation", "chatgpt", "productivity", "workflow", "efficiency", "sop", "time saving"]
-image: "/images/blog/chatgpt-workflow-automation-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The highest-leverage use of AI isn't generating content — it's eliminating the repetitive cognitive work that eats your week. These prompts target the specific tasks knowledge workers do over and over: meeting notes, reports, SOPs, email management, and decision-making. Automate these once and you save hours every week, indefinitely.

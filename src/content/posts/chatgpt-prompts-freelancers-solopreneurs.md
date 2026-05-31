@@ -5,9 +5,11 @@ pubDate: 2025-05-01
 author: "AI Prompt Hub Team"
 category: "productivity-prompts"
 tags: ["freelancing", "chatgpt", "solopreneur", "client management", "proposals", "freelance business"]
-image: "/images/blog/chatgpt-freelancer-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Freelancers who use AI don't just work faster — they show up as more professional, win more pitches, and spend less time on the business admin that eats into billable hours. These prompts cover every part of running a freelance business.

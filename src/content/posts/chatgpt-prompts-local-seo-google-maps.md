@@ -5,9 +5,11 @@ pubDate: 2025-02-12
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["local seo", "seo", "chatgpt", "google business profile", "google maps", "local marketing"]
-image: "/images/blog/chatgpt-local-seo-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Local SEO is one of the highest-ROI investments a local business can make. When someone searches "plumber near me" or "best dentist in [city]," being in the top 3 Google Maps results can mean the difference between a full calendar and an empty one.

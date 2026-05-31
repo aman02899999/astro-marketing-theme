@@ -5,9 +5,11 @@ pubDate: 2025-03-14
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["javascript", "react", "chatgpt", "coding prompts", "frontend", "hooks", "typescript"]
-image: "/images/blog/chatgpt-javascript-react-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 JavaScript and React developers who use AI iterate faster, catch bugs earlier, and spend less time on boilerplate. These prompts cover the full frontend development workflow — from component design to state management, testing, and performance optimization.

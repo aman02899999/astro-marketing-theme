@@ -5,9 +5,11 @@ pubDate: 2025-05-07
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["business operations", "chatgpt", "sop", "process improvement", "delegation", "scaling"]
-image: "/images/blog/chatgpt-business-operations-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 The difference between a business that scales and one that stalls is systems. These prompts help you document, improve, and delegate the processes that keep your business running — so you can spend your time building, not firefighting.

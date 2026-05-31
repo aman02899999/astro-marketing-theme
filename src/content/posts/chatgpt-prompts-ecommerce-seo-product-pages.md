@@ -5,9 +5,11 @@ pubDate: 2025-04-21
 author: "AI Prompt Hub Team"
 category: "seo-prompts"
 tags: ["ecommerce seo", "seo", "chatgpt", "product pages", "shopify", "category pages", "online store"]
-image: "/images/blog/chatgpt-ecommerce-seo-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 E-commerce SEO lives or dies on product pages, category pages, and your ability to handle duplicate content at scale. These prompts help you write optimized content for every product, build category pages that rank, and handle the unique technical challenges of online stores.

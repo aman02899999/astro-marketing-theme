@@ -5,9 +5,11 @@ pubDate: 2025-01-25
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["chatgpt", "writing", "content creation", "copywriting", "ai prompts"]
-image: "/images/blog/chatgpt-writing-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Writing with AI isn't about replacing your voice — it's about removing the friction between your ideas and the page. These 50 ChatGPT prompts cut straight through writer's block and give you drafts, outlines, and polished copy in minutes.

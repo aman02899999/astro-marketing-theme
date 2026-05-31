@@ -5,9 +5,11 @@ pubDate: 2025-02-20
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["python", "chatgpt", "coding prompts", "automation", "data science", "django", "fastapi"]
-image: "/images/blog/chatgpt-python-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Python developers who use AI ship faster across every layer of the stack — from one-liners that replace 20 lines of manual logic to full API endpoints with error handling and tests. These prompts are specific to Python and cover the tasks you actually do every day.

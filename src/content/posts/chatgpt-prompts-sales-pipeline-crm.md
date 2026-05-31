@@ -5,9 +5,11 @@ pubDate: 2025-07-16
 author: "AI Prompt Hub Team"
 category: "business-prompts"
 tags: ["sales", "chatgpt", "sales prospecting", "crm", "closing", "b2b sales"]
-image: "/images/blog/chatgpt-sales-pipeline-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Sales is fundamentally about having the right conversation at the right time. These prompts help you have more of those conversations — by making outreach sharper, discovery more structured, and follow-up more consistent.

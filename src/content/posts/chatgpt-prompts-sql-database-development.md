@@ -5,9 +5,11 @@ pubDate: 2025-04-05
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["sql", "database", "chatgpt", "data engineering", "postgresql", "mysql", "data modeling"]
-image: "/images/blog/chatgpt-sql-database-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 SQL is where data becomes insight. Whether you're writing your first JOIN or designing a multi-terabyte warehouse schema, ChatGPT accelerates every step of the database development workflow. These prompts cover queries, schema design, optimization, and data pipelines.

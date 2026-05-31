@@ -5,9 +5,11 @@ pubDate: 2025-02-01
 author: "AI Prompt Hub Team"
 category: "chatgpt-prompts"
 tags: ["chatgpt", "prompt engineering", "ai prompts", "gpt-4", "advanced ai"]
-image: "/images/blog/chatgpt-prompt-engineering.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Most people use ChatGPT like a search engine — type a question, read the answer, move on. Prompt engineers use it like a programmable expert. The difference is technique, and this guide gives you 20 of them.

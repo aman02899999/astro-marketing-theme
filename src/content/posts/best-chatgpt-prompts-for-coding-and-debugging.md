@@ -5,9 +5,11 @@ pubDate: 2025-01-22
 author: "AI Prompt Hub Team"
 category: "coding-prompts"
 tags: ["coding", "programming", "debugging", "chatgpt", "development", "software"]
-image: "/images/blog/chatgpt-coding-prompts.jpg"
-pinned: false
 draft: false
+image:
+  path: /images/blog/default.jpg
+  alt: AI Prompt Hub article
+pin: false
 ---
 
 Developers who use AI ship faster, write cleaner code, and spend less time on repetitive tasks. But the difference between useful and useless AI output is almost entirely in the prompt.
