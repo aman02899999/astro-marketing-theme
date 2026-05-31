@@ -1,0 +1,110 @@
+---
+import Layout from '@/layouts/Layout.astro';
+import Footer from '@/components/Footer.astro';
+import { fetchBlogPosts } from '@/lib/fetchBlog';
+import { getCollection } from 'astro:content';
+import siteData from '@/data/global/site.json';
+import localCategories from '@/data/blog/categories.json';
+import { withBase } from '@/lib/assetPath';
+
+export const prerender = true;
+
+export async function getStaticPaths() {
+  return localCategories.map((category) => ({ params: { category: category.key } }));
+}
+
+const categoryKey = Astro.params.category?.toString().toLowerCase() ?? 'general';
+const categoryMeta = localCategories.find((category) => category.key === categoryKey);
+const categoryLabel = categoryMeta?.label ?? categoryKey.replace(/-/g, ' ');
+const categoryDescription = categoryMeta?.description ?? `Articles tagged ${categoryLabel}.`;
+
+const fetchedPosts = await fetchBlogPosts();
+const allLocalPosts = await getCollection('posts');
+const now = new Date();
+const localPosts = (
+  import.meta.env.DEV
+    ? allLocalPosts
+    : allLocalPosts.filter((post) => !post.data.draft && post.data.pubDate <= now)
+)
+  .filter((post) => (post.data.category ?? 'general').toString().toLowerCase().replace(/\s+/g, '-') === categoryKey)
+  .map((post) => ({
+    title: post.data.title,
+    excerpt: post.data.description,
+    category: post.data.category ?? 'general',
+    date: post.data.pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' }),
+    tags: post.data.tags ?? [],
+    link: withBase(`/blog/${post.slug}/`),
+    accent: 'bg-site-surface',
+    border: 'border-site-border',
+    image: post.data.image ? withBase(post.data.image.path) : undefined,
+  }));
+const externalPosts = fetchedPosts.filter((post) => (post.category ?? 'general').toString().toLowerCase().replace(/\s+/g, '-') === categoryKey);
+const posts = [...localPosts, ...externalPosts];
+
+const pageTitle = `${categoryLabel} Posts — ${siteData.name}`;
+const pageDescription = `Browse ${categoryLabel} articles and prompts from ${siteData.name}.`;
+---
+
+<Layout title={pageTitle} description={pageDescription}>
+  <div class="px-6 lg:px-12 py-16">
+    <div class="max-w-5xl mx-auto">
+      <nav aria-label="Breadcrumb" class="mb-8">
+        <ol class="flex items-center gap-2 text-sm text-site-muted font-mono">
+          <li><a href={withBase('/')} data-astro-reload class="hover:text-site-text transition-colors">Home</a></li>
+          <li class="text-site-border">/</li>
+          <li><a href={withBase('/blog')} class="hover:text-site-text transition-colors">Blog</a></li>
+          <li class="text-site-border">/</li>
+          <li><a href={withBase('/blog/categories')} class="hover:text-site-text transition-colors">Categories</a></li>
+          <li class="text-site-border">/</li>
+          <li class="text-electric-cyan">{categoryLabel}</li>
+        </ol>
+      </nav>
+
+      <div class="mb-10">
+        <h1 class="font-display font-bold text-4xl sm:text-5xl text-site-text mb-4">{categoryLabel}</h1>
+        <p class="text-site-text-muted text-lg max-w-3xl">{categoryDescription}</p>
+      </div>
+
+      {posts.length === 0 ? (
+        <div class="rounded-3xl border border-site-border/60 bg-site-surface/50 p-8">
+          <p class="text-site-text text-base mb-4">No posts found in this category yet.</p>
+          <p class="text-site-muted text-sm">Try another category or visit the main blog page to explore more content.</p>
+          <div class="mt-6 flex flex-wrap gap-3">
+            <a href={withBase('/blog')} class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold uppercase tracking-[2px] bg-site-green text-black rounded-full">All Posts</a>
+            <a href={withBase('/blog/categories')} class="inline-flex items-center gap-2 px-5 py-3 text-sm font-semibold uppercase tracking-[2px] border border-site-border rounded-full text-site-text">Categories</a>
+          </div>
+        </div>
+      ) : (
+        <div class="space-y-6">
+          {posts.map((post) => (
+            <a href={post.link} class={`group flex flex-col sm:flex-row gap-5 p-6 rounded-3xl border ${post.border} bg-site-surface/30 hover:bg-site-surface/60 transition-all duration-200`} target={post.link.startsWith('http') ? '_blank' : undefined} rel={post.link.startsWith('http') ? 'noopener noreferrer' : undefined}>
+              {post.image && (
+                <div class="sm:w-40 sm:shrink-0 overflow-hidden rounded-2xl bg-navy-900">
+                  <img src={post.image} alt={post.title} class="w-full h-28 sm:h-full object-cover" loading="lazy" />
+                </div>
+              )}
+              <div class="flex-1 min-w-0">
+                <div class="flex flex-wrap items-center gap-2 mb-3">
+                  <span class={`text-xs font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-site-surface border border-site-border/60 ${post.accent}`}>
+                    {post.category}
+                  </span>
+                  <span class="text-xs text-site-muted">{post.date}</span>
+                </div>
+                <h2 class="font-display font-bold text-xl text-site-text mb-2 group-hover:text-electric-cyan transition-colors">{post.title}</h2>
+                <p class="text-site-text-muted text-sm leading-relaxed">{post.excerpt}</p>
+                {post.tags && post.tags.length > 0 && (
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    {post.tags.map((tag) => (
+                      <span class="text-[11px] font-mono px-2.5 py-1 rounded-full bg-site-surface border border-site-border/40 text-site-muted">#{tag}</span>
+                    ))}
+                  </div>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      )}
+    </div>
+  </div>
+  <Footer />
+</Layout>

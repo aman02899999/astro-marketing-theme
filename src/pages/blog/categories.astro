@@ -5,19 +5,55 @@ import { fetchBlogPosts } from "@/lib/fetchBlog";
 import personalData from "@/data/global/personal.json";
 import siteData from "@/data/global/site.json";
 import { withBase } from "@/lib/assetPath";
+import { getCollection } from "astro:content";
+import localCategories from '@/data/blog/categories.json';
 
-const posts = await fetchBlogPosts();
+// Fetch external posts and local collection posts, then merge
+const fetchedPosts = await fetchBlogPosts();
+const localPostsRaw = await getCollection('posts');
+const localPosts = localPostsRaw.map(p => ({
+  title: p.data.title,
+  url: withBase(`/blog/${p.slug}/`),
+  category: p.data.category ?? 'general',
+  tags: p.data.tags ?? [],
+  accent: p.data.accent ?? 'bg-site-surface',
+  border: p.data.border ?? 'border-site-border'
+}));
 
-// Aggregate categories with post counts and styling
-const catMap = new Map<string, { count: number; accent: string; border: string }>();
-for (const post of posts) {
-  if (!catMap.has(post.category)) {
-    catMap.set(post.category, { count: 0, accent: post.accent, border: post.border });
-  }
-  catMap.get(post.category)!.count++;
+const posts = [...fetchedPosts, ...localPosts];
+
+// Build map from categories metadata, using localCategories as primary source
+const catMap = new Map();
+for (const c of localCategories) {
+  catMap.set(c.key, {
+    key: c.key,
+    label: c.label,
+    description: c.description,
+    accent: c.accent,
+    border: c.border,
+    order: c.order ?? 999,
+    count: 0,
+  });
 }
-const categories = [...catMap.entries()]
-  .sort((a, b) => b[1].count - a[1].count);
+for (const post of posts) {
+  const key = (post.category || 'general').toString().toLowerCase().replace(/\s+/g, '-');
+  if (!catMap.has(key)) {
+    catMap.set(key, {
+      key,
+      label: post.category ?? key,
+      description: '',
+      accent: post.accent ?? 'bg-site-surface',
+      border: post.border ?? 'border-site-border',
+      order: 999,
+      count: 0,
+    });
+  }
+  catMap.get(key).count++;
+}
+
+// Sort categories by order (if present) or by count
+const categories = [...catMap.values()]
+  .sort((a, b) => (a.order ?? 999) - (b.order ?? 999) || b.count - a.count);
 ---
 
 <Layout
@@ -54,21 +90,20 @@ const categories = [...catMap.entries()]
       )}
 
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {categories.map(([name, { count, accent, border }]) => (
+        {categories.map((category) => (
           <a
-            href={name === 'general' ? `${personalData.blog_url}/categories/` : `${personalData.blog_url}/categories/${name.toLowerCase().replace(/\s+/g, '-')}/`}
-            target="_blank"
-            rel="noopener noreferrer"
-            class={`group flex items-center justify-between p-4 rounded-xl border bg-site-surface/30 hover:bg-site-surface/60 transition-all duration-200 ${border}`}
+            href={withBase(`/blog/categories/${category.key}/`)}
+            class={`group block p-5 rounded-3xl border bg-site-surface/30 hover:bg-site-surface/60 transition-all duration-200 ${category.border}`}
           >
-            <div>
-              <span class={`text-xs font-mono font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-site-surface border border-site-border/60 ${accent}`}>
-                {name}
+            <div class="flex items-center justify-between gap-4 mb-3">
+              <span class={`text-xs font-mono font-bold uppercase tracking-wider px-3 py-1 rounded-full bg-site-surface border border-site-border/60 ${category.accent}`}>
+                {category.label}
+              </span>
+              <span class="text-lg font-bold font-mono text-site-text opacity-60 group-hover:opacity-100 transition-opacity">
+                {category.count}
               </span>
             </div>
-            <span class="text-lg font-bold font-mono text-site-text opacity-60 group-hover:opacity-100 transition-opacity">
-              {count}
-            </span>
+            <p class="text-site-text-muted text-sm leading-relaxed min-h-[4rem]">{category.description || 'Discover more posts in this category.'}</p>
           </a>
         ))}
       </div>

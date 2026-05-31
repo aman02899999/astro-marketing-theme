@@ -50,7 +50,7 @@ import { icons } from '@/lib/icons';
 
     <!-- CTAs -->
     <div
-      class="flex flex-wrap gap-4 mb-2 xl:mb-16 animate-slide-up"
+      class="flex flex-wrap gap-4 mb-6 xl:mb-16 animate-slide-up"
       style="animation-delay: 0.2s; opacity: 0; animation-fill-mode: forwards;"
     >
       {heroData.ctas.map((cta) => cta.style === 'primary' ? (
@@ -73,24 +73,31 @@ import { icons } from '@/lib/icons';
       ))}
     </div>
 
-    <!-- Stats row
-    <div
-      class="grid grid-cols-2 sm:grid-cols-4 gap-0 animate-slide-up border border-site-border"
-      style="animation-delay: 0.3s; opacity: 0; animation-fill-mode: forwards;"
-    >
-      {[
-        { value: "99.9%", label: "Uptime SLA" },
-        { value: "< 1hr", label: "Response Time" },
-        { value: "100%", label: "Human Support" },
-        { value: "24/7", label: "Monitoring" },
-      ].map((stat, i) => (
-        <div class={`px-6 py-4 ${i < 3 ? "border-r border-site-border" : ""} bg-navy-800`}>
-          <div class="text-2xl font-display font-bold uppercase tracking-wide" style="color: var(--color-primary);">{stat.value}</div>
-          <div class="text-xs font-mono text-site-muted mt-0.5 uppercase tracking-wider">{stat.label}</div>
-        </div>
-      ))}
-    </div>
-    End Stats row -->
+    {heroData.badge && (
+      <div class="inline-flex items-center gap-3 mb-8 animate-slide-up" style="animation-delay: 0.25s; opacity: 0; animation-fill-mode: forwards;">
+        <span class="text-[11px] font-mono font-semibold uppercase tracking-[3px] rounded-full px-3 py-1" style={heroData.badge.color}>{heroData.badge.label}</span>
+        <span class="text-sm text-site-text-muted">{heroData.badge.text}</span>
+      </div>
+    )}
+
+    {heroData.features && heroData.features.length > 0 && (
+      <div class="grid gap-4 sm:grid-cols-3 mb-10 animate-slide-up" style="animation-delay: 0.3s; opacity: 0; animation-fill-mode: forwards;">
+        {heroData.features.map((feature) => (
+          <div class="rounded-3xl border border-site-border/60 bg-site-surface/70 p-5 backdrop-blur-sm shadow-[0_0_40px_rgba(0,0,0,0.04)]">
+            <span class="inline-flex items-center justify-center w-12 h-12 rounded-2xl bg-navy-800 text-electric-cyan mb-4" set:html={icons[feature.icon]} />
+            <h3 class="font-display font-semibold text-base text-site-text mb-2">{feature.title}</h3>
+            <p class="text-site-text-muted text-sm leading-relaxed">{feature.desc}</p>
+          </div>
+        ))}
+      </div>
+    )}
+
+    {heroData.testimonial && (
+      <div class="rounded-[2rem] border border-site-border/60 bg-site-surface/60 p-8 animate-slide-up" style="animation-delay: 0.35s; opacity: 0; animation-fill-mode: forwards;">
+        <p class="text-2xl font-display font-semibold text-white leading-tight mb-4">“{heroData.testimonial.quote}”</p>
+        <p class="text-site-green font-semibold">{heroData.testimonial.author}</p>
+      </div>
+    )}
   </div>
 </section>
 

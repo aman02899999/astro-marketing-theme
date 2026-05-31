@@ -1,0 +1,42 @@
+[
+  {
+    "key": "general",
+    "label": "General",
+    "description": "Broad prompts and ideas that don't fit a single category.",
+    "accent": "bg-electric-cyan/10",
+    "border": "border-site-border/40",
+    "order": 1
+  },
+  {
+    "key": "chatgpt-prompts",
+    "label": "ChatGPT Prompts",
+    "description": "High-quality prompt templates for ChatGPT and similar LLMs.",
+    "accent": "bg-site-green/10",
+    "border": "border-site-green/30",
+    "order": 2
+  },
+  {
+    "key": "marketing-prompts",
+    "label": "Marketing Prompts",
+    "description": "Prompts focused on copy, ads, growth, and content strategy.",
+    "accent": "bg-site-purple/10",
+    "border": "border-site-purple/30",
+    "order": 3
+  },
+  {
+    "key": "coding-prompts",
+    "label": "Coding Prompts",
+    "description": "Developer-focused prompts for debugging, refactors, and scaffolding.",
+    "accent": "bg-site-orange/10",
+    "border": "border-site-orange/30",
+    "order": 4
+  },
+  {
+    "key": "productivity-prompts",
+    "label": "Productivity Prompts",
+    "description": "Workflows, GTD, and efficiency-focused prompt patterns.",
+    "accent": "bg-site-yellow/10",
+    "border": "border-site-yellow/30",
+    "order": 5
+  }
+]

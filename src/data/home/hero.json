@@ -3,6 +3,20 @@
   "heading": "Master AI with the Perfect Prompt.",
   "subHeading": "Discover curated, expert-crafted prompts for ChatGPT, business, marketing, SEO, coding, and more. Level up your productivity today.",
   "blurb": "Curated prompts for practical workflows, marketing, engineering, and growth—ready to use.",
+  "badge": {
+    "label": "New",
+    "color": "bg-site-green/20",
+    "text": "Updated weekly"
+  },
+  "features": [
+    { "icon": "sparkles", "title": "Instant Results", "desc": "Paste-ready prompts that work on first try." },
+    { "icon": "bolt", "title": "Proven", "desc": "Tested prompts used by professionals." },
+    { "icon": "shield-check", "title": "Safe to Use", "desc": "Open and reusable for personal or commercial use." }
+  ],
+  "testimonial": {
+    "quote": "Saved me hours of work — these prompts are shockingly good.",
+    "author": "— Alex R., PM"
+  },
   "ctas": [
     { "label": "Browse All Prompts", "href": "/blog", "style": "primary" },
     { "label": "View Categories", "href": "/blog/categories", "style": "secondary" }

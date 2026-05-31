@@ -10,6 +10,16 @@ const gifCount = Object.keys(retroTvGlob).length;
 
 const navItems = navigationData.navItems;
 
+function formatChild(href) {
+  // If the child is a blog category route, point it at the external blog
+  if (href && href.startsWith('/blog/categories')) {
+    const base = (personalData.blog_url || '').replace(/\/$/, '');
+    const tail = href.replace(/^\/blog/, '');
+    return { href: base + tail, external: true };
+  }
+  return { href: withBase(href), external: false };
+}
+
 const basePrefix = base.endsWith('/') ? base.slice(0, -1) : base;
 const rawPath = Astro.url.pathname.slice(basePrefix.length) || '/';
 
@@ -101,22 +111,29 @@ const otherSites = navigationData.otherSites ?? [];
               />
             </summary>
             <div class="mt-0.5 ml-5 pl-4 border-l border-site-border space-y-0">
-              {item.children.map((child) => (
-                <a
-                  href={withBase(child.href)}
-                  data-nav-link
-                  aria-current={isActive(child.href) ? "page" : undefined}
-                  class={`flex items-center gap-2 px-2 py-2 text-xs font-mono transition-all duration-150 ${
-                    isActive(child.href)
-                      ? "text-white bg-site-surface"
-                      : "text-site-muted hover:text-white hover:bg-site-surface/50"
-                  }`}
-                  style={isActive(child.href) ? "color: var(--color-primary);" : ""}
-                >
-                  <span class="flex-shrink-0" set:html={navIcons[child.iconKey]} />
-                  <span class="sidebar-label">{child.label}</span>
-                </a>
-              ))}
+              {item.children.map((child) => {
+                const formatted = formatChild(child.href);
+                const childIsExternal = formatted.external;
+                const childHref = formatted.href;
+                return (
+                  <a
+                    href={childHref}
+                    data-nav-link
+                    target={childIsExternal ? "_blank" : undefined}
+                    rel={childIsExternal ? "noopener noreferrer" : undefined}
+                    aria-current={isActive(child.href) ? "page" : undefined}
+                    class={`flex items-center gap-2 px-2 py-2 text-xs font-mono transition-all duration-150 ${
+                      isActive(child.href)
+                        ? "text-white bg-site-surface"
+                        : "text-site-muted hover:text-white hover:bg-site-surface/50"
+                    }`}
+                    style={isActive(child.href) ? "color: var(--color-primary);" : ""}
+                  >
+                    <span class="flex-shrink-0" set:html={navIcons[child.iconKey]} />
+                    <span class="sidebar-label">{child.label}</span>
+                  </a>
+                );
+              })}
             </div>
           </details>
         ) : (

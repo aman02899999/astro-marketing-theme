@@ -4,8 +4,8 @@ pubDate: 2026-05-12
 description: "Mmmm cake. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mmmm. Cake."
 tags: [cake, mmmm, lorem, ipsum]
 category: general
-draft: false
-pin: true
+draft: true
+pin: false
 image:
   path: /images/blog/placeholder-cake.jpg
   alt: A delicious raspberry cake, mmmm
