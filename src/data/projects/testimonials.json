@@ -1,23 +1,26 @@
 [
   {
-    "quote": "The diligence process was thorough without being adversarial. They found real problems, priced them fairly, and closed on time. Rare combination.",
     "name": "Sarah K.",
-    "role": "Founder",
-    "company": "Manufacturing Company",
-    "initials": "SK"
+    "role": "Content Marketer",
+    "quote": "The SEO prompts guide cut my content brief time from 2 hours to 15 minutes. I now produce more content than my whole team did before.",
+    "category": "SEO Prompts"
   },
   {
-    "quote": "They took board seats and actually showed up. Strategy, accountability, and a network that opened doors we couldn't open ourselves.",
     "name": "James T.",
-    "role": "CEO",
-    "company": "Regional Services Group",
-    "initials": "JT"
+    "role": "Software Engineer",
+    "quote": "The coding debugging prompts are pure gold. I paste the error, paste my code, fire the prompt, and 9 times out of 10 it nails the root cause immediately.",
+    "category": "Coding Prompts"
   },
   {
-    "quote": "We thought selling meant losing control. They structured it so the management team stayed intact and upside was preserved. Exactly what we needed.",
-    "name": "David L.",
-    "role": "Managing Partner",
-    "company": "Specialty Distribution Co.",
-    "initials": "DL"
+    "name": "Maria L.",
+    "role": "Small Business Owner",
+    "quote": "Used the business plan prompts to write my entire investor deck. Saved me thousands in consultancy fees and got funded on the first pitch.",
+    "category": "Business Prompts"
+  },
+  {
+    "name": "David R.",
+    "role": "YouTube Creator",
+    "quote": "My channel went from 200 to 8,000 subscribers in 3 months. The YouTube script and title prompts completely changed how I approach video creation.",
+    "category": "YouTube Prompts"
   }
 ]

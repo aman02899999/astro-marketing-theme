@@ -1,32 +1,20 @@
 [
   {
-    "emoji": "📊",
-    "title": "Investment Inquiry",
-    "description": "Considering a co-investment or partnership opportunity? Submit your mandate details and a member of our team will follow up with qualified prospective partners."
+    "heading": "Suggest a Prompt",
+    "body": "Know a great prompt we haven't covered? Submit it and we'll test and publish it.",
+    "ctaLabel": "Submit a Prompt",
+    "ctaHref": "/contact"
   },
   {
-    "emoji": "🏢",
-    "title": "Business Acquisition",
-    "description": "Operating a business and exploring a sale or recapitalization? Submit your details for a confidential preliminary evaluation from our deal team."
+    "heading": "Found an Error?",
+    "body": "If a prompt isn't working as described, let us know and we'll fix it fast.",
+    "ctaLabel": "Report an Issue",
+    "ctaHref": "/contact"
   },
   {
-    "emoji": "📋",
-    "title": "Portfolio Matter",
-    "description": "Existing portfolio company stakeholders, lender representatives, or board members may use this form for direct correspondence with the Apex Capital Group management team."
-  },
-  {
-    "emoji": "🤝",
-    "title": "Institutional Partnership",
-    "description": "Family offices, institutional allocators, and intermediaries seeking to discuss deal flow, co-investment structures, or referral arrangements are welcome to reach out directly."
-  },
-  {
-    "emoji": "⚖️",
-    "title": "Legal or Compliance",
-    "description": "Regulatory filings, compliance inquiries, and legal correspondence should be directed here. All legal communications are logged and routed to counsel."
-  },
-  {
-    "emoji": "📬",
-    "title": "General Inquiry",
-    "description": "For inquiries not covered above, use this form to reach the appropriate team. Include sufficient context so the correct party can respond promptly."
+    "heading": "Advertise with Us",
+    "body": "Reach 50,000+ monthly readers interested in AI tools and productivity.",
+    "ctaLabel": "Get in Touch",
+    "ctaHref": "/contact"
   }
 ]

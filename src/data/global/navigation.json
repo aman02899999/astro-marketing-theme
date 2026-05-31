@@ -1,57 +1,54 @@
 {
-  "welcomeText": "Apex Capital Group",
-  "ctaText": "Investor Inquiry",
-  "navItems": [
-    { "label": "Home", "href": "/", "iconKey": "home" },
+  "sidebarNav": [
     {
-      "label": "Services",
-      "href": "/services",
-      "iconKey": "server",
-      "children": [
-        { "label": "Acquisition & Intake", "href": "/services/acquisition-intake", "iconKey": "terminal" },
-        { "label": "Operational Efficiency", "href": "/services/operational-efficiency", "iconKey": "network" },
-        { "label": "Portfolio Disposition", "href": "/services/portfolio-disposition", "iconKey": "star" },
-        { "label": "Leadership Transition", "href": "/services/leadership-transition", "iconKey": "support" }
-      ]
+      "label": "Home",
+      "href": "/",
+      "title": "Home"
     },
-    { "label": "About", "href": "/about", "iconKey": "user" },
     {
       "label": "Blog",
       "href": "/blog",
-      "iconKey": "book",
+      "title": "Blog",
       "children": [
-        { "label": "Posts", "href": "/blog", "iconKey": "book" },
-        { "label": "Categories", "href": "/blog/categories", "iconKey": "grid" },
-        { "label": "Timeline", "href": "/blog/timeline", "iconKey": "clock" }
+        { "label": "All Posts",   "href": "/blog" },
+        { "label": "Categories",  "href": "/blog/categories" },
+        { "label": "Timeline",    "href": "/blog/timeline" }
       ]
     },
-    { "label": "Portfolio", "href": "/projects", "iconKey": "monitor" },
-    { "label": "Contact", "href": "/contact", "iconKey": "mail" }
+    {
+      "label": "Categories",
+      "href": "/blog/categories",
+      "title": "Categories",
+      "children": [
+        { "label": "🤖 ChatGPT Prompts",      "href": "/blog/categories/chatgpt-prompts" },
+        { "label": "💼 Business Prompts",     "href": "/blog/categories/business-prompts" },
+        { "label": "📣 Marketing Prompts",    "href": "/blog/categories/marketing-prompts" },
+        { "label": "🔍 SEO Prompts",          "href": "/blog/categories/seo-prompts" },
+        { "label": "💻 Coding Prompts",       "href": "/blog/categories/coding-prompts" },
+        { "label": "⚡ Productivity Prompts", "href": "/blog/categories/productivity-prompts" },
+        { "label": "▶️ YouTube Prompts",     "href": "/blog/categories/youtube-prompts" },
+        { "label": "📱 Social Media Prompts", "href": "/blog/categories/social-media-prompts" },
+        { "label": "🎨 Design Prompts",       "href": "/blog/categories/design-prompts" },
+        { "label": "📚 Education Prompts",    "href": "/blog/categories/education-prompts" }
+      ]
+    },
+    {
+      "label": "About",
+      "href": "/about",
+      "title": "About"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact",
+      "title": "Contact"
+    }
   ],
-  "footerTagline": "Investor Relations — Voice or Message",
-  "footerLinks": {
-    "Services": [
-      { "label": "Acquisition & Intake", "href": "/services/acquisition-intake" },
-      { "label": "Operational Efficiency", "href": "/services/operational-efficiency" },
-      { "label": "Portfolio Disposition", "href": "/services/portfolio-disposition" },
-      { "label": "Leadership Transition", "href": "/services/leadership-transition" }
-    ],
-    "Company": [
-      { "label": "About Us", "href": "/about" },
-      { "label": "Portfolio", "href": "/projects" },
-      { "label": "Blog", "href": "/blog" },
-      { "label": "Contact", "href": "/contact" }
-    ],
-    "Legal": [
-      { "label": "Privacy Policy", "href": "/privacy" },
-      { "label": "Terms of Service", "href": "/terms" }
-    ]
-  },
-  "sidebarSocialLabel": "Social",
-  "sidebarOtherSitesLabel": "Other Sites",
-  "otherSites": [
-    { "label": "Secure Client Access", "href": "https://client.apexcap.example", "iconKey": "user-outline" },
-    { "label": "Investor Relations", "href": "mailto:ir@apexcap.example", "iconKey": "home-outline" }
-  ]
+  "footerLinks": [
+    { "label": "Privacy Policy",     "href": "/privacy" },
+    { "label": "Terms of Service",   "href": "/terms" },
+    { "label": "RSS Feed",           "href": "/rss.xml" },
+    { "label": "Sitemap",            "href": "/sitemap-index.xml" }
+  ],
+  "socialLabel": "Social",
+  "otherSites": []
 }
-

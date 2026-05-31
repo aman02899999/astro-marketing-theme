@@ -1,28 +1,19 @@
 {
-  "sectionLabel": "Client Access",
-  "heading": "Partner",
-  "headingAccent": "Portal",
-  "personalSiteCard": {
-    "label": "Secure Access",
-    "displayName": "client.apexcap.example",
-    "description": "Authorized clients and business partners access portfolio summaries, asset documentation, billing statements, and payment records through the secure client portal.",
-    "visitLabel": "Log in to Portal"
-  },
-  "quickStats": {
-    "label": "Portal Overview",
-    "items": [
-      { "key": "Asset Modules", "valueKey": "yearsExperience", "suffix": "" },
-      { "key": "Billing Cycles", "value": "Active" },
-      { "key": "Active Sectors", "value": "5" }
-    ]
-  },
-  "infoLabels": {
-    "role": "Account Type",
-    "location": "Primary Jurisdiction",
-    "experience": "Relationship Status",
-    "experienceSuffix": " years on platform",
-    "education": "Entity Classification",
-    "blog": "Resource Library",
-    "contact": "Support Portal"
-  }
+  "cardTitle": "Resource Library",
+  "cardSubtitle": "Browse our complete prompt library",
+  "accountType": "Open Access — No Login Required",
+  "primaryDetail": "All Prompt Categories",
+  "secondaryDetail": "10 Categories · 500+ Articles",
+  "stats": [
+    { "label": "Prompt Articles", "value": "500+" },
+    { "label": "Categories",      "value": "10" },
+    { "label": "New This Month",  "value": "20+" }
+  ],
+  "resourceLabel": "All Articles",
+  "resourceHref": "/blog",
+  "supportLabel": "hello@aipromptshub.com",
+  "supportHref": "mailto:hello@aipromptshub.com",
+  "ctaLabel": "Browse All Prompts",
+  "ctaHref": "/blog",
+  "ctaDescription": "Free, copy-paste ready AI prompts for ChatGPT, Claude, Gemini and more. No account needed."
 }

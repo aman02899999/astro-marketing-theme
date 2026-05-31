@@ -1,22 +1,5 @@
 {
-  "pageTitle": "Portfolio — Apex Capital Group",
-  "pageDescription": "Apex Capital Group portfolio companies across manufacturing, services, consumer, industrial, healthcare, and distribution sectors.",
-  "featuredEyebrow": "Portfolio Highlights",
-  "featuredHeading": "Featured",
-  "featuredAccent": "Holdings",
-  "allEyebrow": "Full Portfolio",
-  "allHeading": "Portfolio",
-  "allAccent": "Companies",
-  "viewAllLabel": "View full portfolio",
-  "viewAllUnit": "companies",
-  "featuredPortfolioLabel": "Portfolio Highlights",
-  "filters": [
-    { "label": "All",           "value": "all" },
-    { "label": "Manufacturing", "value": "manufacturing" },
-    { "label": "Services",      "value": "services" },
-    { "label": "Consumer",      "value": "consumer" },
-    { "label": "Industrial",    "value": "industrial" },
-    { "label": "Healthcare",    "value": "healthcare" },
-    { "label": "Distribution",  "value": "distribution" }
-  ]
+  "headline": "Featured Prompt Collections",
+  "subheadline": "Our most-read, most-shared prompt guides — hand-picked by the AI Prompt Hub team.",
+  "intro": "These are the collections our readers return to again and again. Start here if you're new, or use them as a reference for your AI workflows."
 }

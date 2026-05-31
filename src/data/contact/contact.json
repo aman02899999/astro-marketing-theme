@@ -1,32 +1,23 @@
 {
-  "pageTitle": "Contact",
-  "pageDescription": "Contact Apex Capital Group regarding investment inquiries, portfolio matters, or institutional partnership opportunities.",
-  "heading": "Get in Touch.",
-  "subHeading": "Direct inquiries are reviewed by the relevant team and responded to within one business day.",
-  "contactMethods": [
-    {
-      "iconKey": "phone",
-      "label": "Direct Line",
-      "note": "Mon–Fri, 8am–6pm"
-    },
-    {
-      "iconKey": "envelope",
-      "label": "Investor Relations",
-      "note": "Response within one business day"
-    }
-  ],
-  "form": {
-    "heading": "Send a Message",
-    "fields": {
-      "name": { "label": "Name", "placeholder": "Your name or organization" },
-      "email": { "label": "Email", "placeholder": "you@organization.example" },
-      "message": { "label": "Message", "placeholder": "Describe your inquiry. Include relevant context — deal size, sector, timeline — as applicable." }
-    },
-    "submitLabel": "Send Message",
-    "sendingLabel": "Sending…",
-    "confirmationText": "You will receive an email confirmation of receipt.",
-    "successMessage": "Message received. We will be in touch shortly.",
-    "errorFallback": "Something went wrong. Please try again.",
-    "networkError": "Network error. Check your connection and try again."
-  }
+  "headline": "Contact Us",
+  "subheadline": "Have a question, suggestion, or partnership inquiry? We'd love to hear from you.",
+  "email": "hello@aipromptshub.com",
+  "twitter": "@AIPromptHub",
+  "responseTime": "We typically respond within 1–2 business days.",
+  "formLabels": {
+    "name": "Your Name",
+    "email": "Email Address",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send Message"
+  },
+  "successMessage": "Message received! We'll be in touch within 1–2 business days.",
+  "topics": [
+    { "label": "General Question",    "value": "general" },
+    { "label": "Suggest a Prompt",    "value": "suggest" },
+    { "label": "Report an Error",     "value": "error" },
+    { "label": "Partnership / Media", "value": "partnership" },
+    { "label": "Advertising",         "value": "advertising" },
+    { "label": "Other",               "value": "other" }
+  ]
 }
