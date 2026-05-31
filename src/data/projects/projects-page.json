@@ -1,5 +1,17 @@
 {
-  "headline": "Featured Prompt Collections",
-  "subheadline": "Our most-read, most-shared prompt guides — hand-picked by the AI Prompt Hub team.",
-  "intro": "These are the collections our readers return to again and again. Start here if you're new, or use them as a reference for your AI workflows."
+  "pageTitle": "Prompt Collections",
+  "pageDescription": "Curated collections of our best AI prompt guides and libraries.",
+  "featuredEyebrow": "Featured",
+  "allEyebrow": "All Collections",
+  "featuredHeading": "Featured Prompt Collections",
+  "featuredAccent": "",
+  "allHeading": "All Prompt Collections",
+  "allAccent": "",
+  "filters": [
+    { "label": "All", "value": "all" },
+    { "label": "Productivity", "value": "Productivity Prompts" },
+    { "label": "SEO", "value": "SEO Prompts" },
+    { "label": "Coding", "value": "Coding Prompts" },
+    { "label": "Marketing", "value": "Marketing Prompts" }
+  ]
 }

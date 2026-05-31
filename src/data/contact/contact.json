@@ -1,23 +1,23 @@
 {
-  "headline": "Contact Us",
-  "subheadline": "Have a question, suggestion, or partnership inquiry? We'd love to hear from you.",
-  "email": "hello@aipromptshub.com",
-  "twitter": "@AIPromptHub",
-  "responseTime": "We typically respond within 1–2 business days.",
-  "formLabels": {
-    "name": "Your Name",
-    "email": "Email Address",
-    "subject": "Subject",
-    "message": "Message",
-    "submit": "Send Message"
-  },
-  "successMessage": "Message received! We'll be in touch within 1–2 business days.",
-  "topics": [
-    { "label": "General Question",    "value": "general" },
-    { "label": "Suggest a Prompt",    "value": "suggest" },
-    { "label": "Report an Error",     "value": "error" },
-    { "label": "Partnership / Media", "value": "partnership" },
-    { "label": "Advertising",         "value": "advertising" },
-    { "label": "Other",               "value": "other" }
-  ]
+  "pageTitle": "Contact",
+  "pageDescription": "Get in touch with AI Prompt Hub for suggestions, support, or partnerships.",
+  "heading": "Contact Us",
+  "subHeading": "Have a question, suggestion, or partnership inquiry? We'd love to hear from you.",
+  "contactMethods": [
+    { "iconKey": "phone", "label": "Phone", "note": "Call us during business hours" },
+    { "iconKey": "envelope", "label": "Email", "note": "We typically reply within 1–2 business days" }
+  ],
+  "form": {
+    "heading": "Send Us a Message",
+    "fields": {
+      "name": { "label": "Your name", "placeholder": "Jane Doe" },
+      "email": { "label": "Your email", "placeholder": "you@example.com" },
+      "message": { "label": "Message", "placeholder": "How can we help?" }
+    },
+    "submitLabel": "Send Message",
+    "sendingLabel": "Sending…",
+    "successMessage": "Message received! We'll be in touch within 1–2 business days.",
+    "errorFallback": "Something went wrong — please try again later.",
+    "networkError": "Network error — please check your connection."
+  }
 }

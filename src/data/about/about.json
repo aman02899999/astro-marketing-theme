@@ -1,34 +1,61 @@
 {
-  "headline": "About AI Prompt Hub",
+  "pageTitle": "About AI Prompt Hub",
+  "pageDescription": "We curate expert AI prompts and templates to help you get better results from AI.",
   "paragraphs": [
     "AI Prompt Hub is your go-to destination for high-quality, expertly crafted AI prompts that help you get the most out of ChatGPT, Claude, Gemini, and every other AI tool.",
     "We believe that the right prompt can transform your productivity, creativity, and results with AI. Our mission is simple: make expert-level AI prompting accessible to everyone — for free.",
     "Every article is carefully researched, tested with real AI tools, and crafted to provide real-world value whether you're a business owner, marketer, developer, content creator, or student."
   ],
   "contactBar": {
-    "email": "hello@aipromptshub.com",
-    "twitter": "@AIPromptHub"
+    "items": [
+      { "label": "Email", "value": "hello@aipromptshub.com", "href": "mailto:hello@aipromptshub.com" },
+      { "label": "Twitter", "value": "@AIPromptHub", "href": "https://twitter.com/AIPromptHub" }
+    ]
   },
   "pillars": [
     {
       "icon": "✅",
       "title": "Tested Prompts",
-      "body": "Every prompt is tested before publication. If it doesn't work reliably, it doesn't make it in."
+      "desc": "Every prompt is tested before publication. If it doesn't work reliably, it doesn't make it in."
     },
     {
       "icon": "🔄",
       "title": "Regular Updates",
-      "body": "We keep prompts up to date as AI models evolve. What worked six months ago may not be optimal today."
+      "desc": "We keep prompts up to date as AI models evolve. What worked six months ago may not be optimal today."
     },
     {
       "icon": "🚫",
       "title": "No Fluff",
-      "body": "We cut the noise and deliver actionable content. Every paragraph must earn its place."
+      "desc": "We cut the noise and deliver actionable content. Every paragraph must earn its place."
     },
     {
       "icon": "💰",
       "title": "Free Forever",
-      "body": "All prompts on AI Prompt Hub are free to use for personal and commercial projects. No paywalls, ever."
+      "desc": "All prompts on AI Prompt Hub are free to use for personal and commercial projects. No paywalls, ever."
     }
-  ]
+  ],
+  "clientTypes": {
+    "eyebrow": "Who We Serve",
+    "heading": "Who We Help",
+    "body": "From solo creators to enterprise teams, our prompts are organized for practical use across roles.",
+    "items": [
+      { "label": "Marketers" },
+      { "label": "Developers" },
+      { "label": "Content Creators" },
+      { "label": "Students" }
+    ]
+  },
+  "capabilitiesShowcase": {
+    "eyebrow": "Capabilities",
+    "heading": "What We Offer",
+    "subheading": "Hand-picked prompts and workflows for common tasks and workflows."
+  },
+  "pillarsHeading": "Our Principles",
+  "capabilities": [],
+  "techStackHeading": "Tech & Tools",
+  "techStackGroups": [
+    { "cat": "Static Site", "items": ["Astro", "Vite"] },
+    { "cat": "Styling", "items": ["Tailwind", "PostCSS"] }
+  ],
+  "cta": { "heading": "Get In Touch", "body": "Have a prompt suggestion or partnership idea?", "href": "/contact", "label": "Contact Us" }
 }
